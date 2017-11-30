@@ -1,0 +1,11 @@
+[
+	{
+		"op" : "add",
+		"path" : "/species/lagi",
+		"value" : {
+			"aiFrames" : "monsterAI.png",
+			"portraitFrames" : "portraits/monsterportrait.png",
+			"staticFrames" : "staticmonster.png"	
+		}
+	}
+]

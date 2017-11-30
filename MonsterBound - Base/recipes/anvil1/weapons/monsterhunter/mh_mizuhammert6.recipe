@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "mh_mizuhammert5", "count" : 1 },
+    { "item" : "monsterclaw", "count" : 6 },
+	{ "item" : "solariumstar", "count" : 6 }
+  ],
+  "output" : { "item" : "mh_mizuhammert6", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

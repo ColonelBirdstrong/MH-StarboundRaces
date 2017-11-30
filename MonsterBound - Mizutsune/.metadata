@@ -1,0 +1,11 @@
+{
+  "author" : "Colonel Birdstrong",
+  "description" : "A race of bubbly leviathans from the Monster Hunter series.",
+  "friendlyName" : "MonsterBound - Mizutsune Race",
+  "link" : "",
+  "name" : "MonsterBound - Mizutsune Race",
+  "path" : ".",
+  "includes" : ["MonsterBound - Base"],
+  "steamContentId" : "",
+  "version" : "0.7"
+}

@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/lagi",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/lagi",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]

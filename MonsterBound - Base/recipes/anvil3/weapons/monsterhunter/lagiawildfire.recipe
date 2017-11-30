@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 10 },
+	{ "item" : "perfectlygenericitem", "count" : 1 },
+    { "item" : "mh_huntersironsword", "count" : 1 }
+  ],
+  "output" : { "item" : "mh_lagiawildfire", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

@@ -1,0 +1,3 @@
+[
+	{ "op" : "add", "path" : "/defaultCodexes/mizutsune", "value" : [ "protectorate1", "protectorate2" ] }
+]

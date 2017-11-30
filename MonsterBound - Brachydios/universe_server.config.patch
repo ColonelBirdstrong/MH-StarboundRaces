@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/brachydios",
+		"value" : [
+		    "/ships/monster/monstert0.structure",
+			"/ships/monster/monstert1.structure",
+			"/ships/monster/monstert2.structure",
+			"/ships/monster/monstert3.structure",
+			"/ships/monster/monstert4.structure",
+			"/ships/monster/monstert5.structure",
+			"/ships/monster/monstert6.structure",
+			"/ships/monster/monstert7.structure",
+			"/ships/monster/monstert8.structure"
+		]
+	}
+]

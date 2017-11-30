@@ -1,0 +1,239 @@
+{
+  "kind" : "agna",
+	"charCreationTooltip" : {
+	"title" : "Agnaktor",
+	"subTitle" : "O2",
+	"description" : "Lava lizards from Capcom's Monter Hunter franchise (lava not included.)"
+  },
+  "nameGen" : [ "/species/agnanamegen.config:names", "/species/agnanamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/agnahurt_male1.ogg", "/sfx/humanoid/agnahurt_female1.ogg" ],
+  "charGenTextLabels" : [ "Body Color", "", "Shirt", "Legwear", "Scale Color", "Fin Color", "Shirt colour", "Legwear colour", "AGNAKTOR", "Personality" ],
+  "skull" : "/humanoid/agna/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+	
+  // Empty Hands
+      { "item" : "flagmonster" },
+	    
+// Anvil
+      { "item" : "aviantier1head" },
+      { "item" : "aviantier1chest" },
+      { "item" : "aviantier1pants" },
+      { "item" : "aviantier2head" },
+      { "item" : "aviantier2chest" },
+      { "item" : "aviantier2pants" },
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+// Anvil2
+      { "item" : "aviantier3head" },
+      { "item" : "aviantier3chest" },
+      { "item" : "aviantier3pants" },
+      { "item" : "aviantier4head" },
+      { "item" : "aviantier4chest" },
+      { "item" : "aviantier4pants" },
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+// Anvil3
+      { "item" : "aviantier5ahead" },
+      { "item" : "aviantier5achest" },
+      { "item" : "aviantier5apants" },
+      { "item" : "aviantier6ahead" },
+      { "item" : "aviantier6achest" },
+      { "item" : "aviantier6apants" },
+      { "item" : "aviantier5mhead" },
+      { "item" : "aviantier5mchest" },
+      { "item" : "aviantier5mpants" },
+      { "item" : "aviantier6mhead" },
+      { "item" : "aviantier6mchest" },
+      { "item" : "aviantier6mpants" },
+      { "item" : "aviantier5shead" },
+      { "item" : "aviantier5schest" },
+      { "item" : "aviantier5spants" },
+      { "item" : "aviantier6shead" },
+      { "item" : "aviantier6schest" },
+      { "item" : "aviantier6spants" },
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+// Furniture Table 2
+      { "item" : "humanstoragelocker" },
+      { "item" : "monstershipdoor" },
+      { "item" : "monstershiphatch" },
+// Spinning Wheel
+      { "item" : "avianadventurershirt" },
+      { "item" : "avianadventurerpants" },
+      { "item" : "aviancommonershirt" },
+      { "item" : "aviancommonerlegs" },
+      { "item" : "avianfancyshirt" },
+      { "item" : "avianfancyskirt" },
+      { "item" : "avianworkershirt" },
+      { "item" : "avianworkerpants" },
+	  { "item" : "invisback" },
+      { "item" : "invischest" },
+	  { "item" : "invislegs" },
+	  { "item" : "invishead" }
+	  ]
+  },
+  
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "altOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
+  
+  "genders" : [
+    {
+       "name" : "male",
+      "image" : "/interface/title/monmaleico.png",
+      "characterImage" : "/interface/title/agnamale.png",
+      "hair" : [ "male54" ],
+      "shirt" : [ "avianadventurershirt", "aviancommonershirt", "avianfancyshirt", "avianworkershirt", "protectorateshirtchest", "protectoratevestchest", "invischest" ],
+      "pants" : [ "avianadventurerpants", "aviancommonerlegs", "avianfancyskirt", "avianworkerpants", "invislegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/monfemico.png",
+      "characterImage" : "/interface/title/agnafemale.png",
+      "hair" : [ "male54" ],
+      "shirt" : [ "avianadventurershirt", "aviancommonershirt", "avianfancyshirt", "avianworkershirt", "protectorateshirtchest", "protectoratevestchest", "invischest" ],
+      "pants" : [ "avianadventurerpants", "aviancommonerlegs", "avianfancyskirt", "avianworkerpants", "invislegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  
+  // Body, underbelly
+  "bodyColor" : [
+    //BLACK (NARGACUGA)
+    { "e0975c" : "28324a", "a85636" : "1b2439", "6f2919" : "0b1629", "DC1F00" : "828B8D", "BE1B00" : "4A515B", "951500" : "303743" },
+	
+	//GREY (VALPHALK)
+    { "e0975c" : "A2ABBF", "a85636" : "808BA4", "6f2919" : "586177", "DC1F00" : "61617F", "BE1B00" : "464665", "951500" : "363654" },
+	
+	//WHITE (GLACIAL AGNAKTOR)
+    { "e0975c" : "B8C1C6", "a85636" : "9AA0A5", "6f2919" : "6F7477", "DC1F00" : "68594F", "BE1B00" : "493A2F", "951500" : "38271D" },
+	
+	//RED (AGNAKTOR)
+    { "e0975c" : "892619", "a85636" : "6E2017", "6f2919" : "521811", "DC1F00" : "313531", "BE1B00" : "242724", "951500" : "1D201D" },
+	
+	//LIGHTER RED (RATHALOS)
+    { "e0975c" : "AF412D", "a85636" : "8D3629", "6f2919" : "69281F", "DC1F00" : "D0B380", "BE1B00" : "9E7D59", "951500" : "815F44" },
+	
+	//ORANGE (TIGREX)
+    { "e0975c" : "E5A342", "a85636" : "C48838", "6f2919" : "97652B", "DC1F00" : "C19A81", "BE1B00" : "9E7D69", "951500" : "7A6152" },
+	
+	//YELLOW (SEREGIOS)
+    { "e0975c" : "E2BF56", "a85636" : "BC9E3C", "6f2919" : "8B6F2A", "DC1F00" : "DBC6A6", "BE1B00" : "AF956D", "951500" : "968163" },
+	
+	//GREEN (RATHIAN)
+    { "e0975c" : "7B8F31", "a85636" : "697729", "6f2919" : "556021", "DC1F00" : "D0B380", "BE1B00" : "9E7D59", "951500" : "815F44" },
+	
+	//CYAN (ZINOGRE)
+    { "e0975c" : "01B7A8", "a85636" : "019989", "6f2919" : "01766C", "DC1F00" : "C1B67C", "BE1B00" : "9E9465", "951500" : "82794C" },
+	
+	//BLUE (BRACHYDIOS)
+    { "e0975c" : "102E6B", "a85636" : "0D2556", "6f2919" : "0A1D44", "DC1F00" : "717EC1", "BE1B00" : "555F91", "951500" : "3F466B" },
+	
+	//PURPLE (CHAMELEOS)
+    { "e0975c" : "95679F", "a85636" : "794784", "6f2919" : "592D62", "DC1F00" : "A19277", "BE1B00" : "776D5E", "951500" : "5B574E" },
+	
+	//PINK (YIAN KUT-KU)
+    { "e0975c" : "D96580", "a85636" : "B7566C", "6f2919" : "8E394D", "DC1F00" : "D0C9B4", "BE1B00" : "9A968E", "951500" : "767777" },
+	
+	//BROWN (DIABLOS)
+    { "e0975c" : "CC933B", "a85636" : "9E712D", "6f2919" : "725428", "DC1F00" : "A56E47", "BE1B00" : "7A5134", "951500" : "5B3D27" }
+  ],
+  // Beak & claws
+  "undyColor" : [
+	// BLACK
+	{ "E0CF8B" : "5E5E70", "C1AE5B" : "41414C", "9B823E" : "25252B", "84642D" : "1B1B20"},
+	
+	// DARK GREY
+	{ "E0CF8B" : "A2A8AD", "C1AE5B" : "7F8387", "9B823E" : "5D6063", "84642D" : "454749"},
+	
+	// LIGHT GREY
+	{ "E0CF8B" : "BFC6CC", "C1AE5B" : "A7ABAF", "9B823E" : "828689", "84642D" : "5E6063"},
+	
+	// WHITE
+	{ "E0CF8B" : "FFF7EF", "C1AE5B" : "EFE8E1", "9B823E" : "C4BEB8", "84642D" : "A5A19B"},
+	
+	// RED
+	{ "E0CF8B" : "E27868", "C1AE5B" : "DB4730", "9B823E" : "AD3826", "84642D" : "912F1F"},
+	
+	// ORANGE
+	{ "E0CF8B" : "FFBE70", "C1AE5B" : "FF9700", "9B823E" : "CC7100", "84642D" : "A55B00"},
+	
+	// YELLOW (DEFAULT)
+	{ "E0CF8B" : "E0CF8B", "C1AE5B" : "C1AE5B", "9B823E" : "9B823E", "84642D" : "84642D"},
+	
+	// GREEN
+	{ "E0CF8B" : "72CE35", "C1AE5B" : "61A038", "9B823E" : "4A7A2A", "84642D" : "356019"},
+	
+	// CYAN
+	{ "E0CF8B" : "47E4EF", "C1AE5B" : "3DC2CC", "9B823E" : "1C8E96", "84642D" : "19787F"},
+	
+	// BLUE
+	{ "E0CF8B" : "448EE2", "C1AE5B" : "2F619E", "9B823E" : "224772", "84642D" : "1B395B"},
+	
+	// PURPLE
+	{ "E0CF8B" : "D39EFF", "C1AE5B" : "B37DE0", "9B823E" : "9165B5", "84642D" : "745191"},
+	
+	// PINK
+	{ "E0CF8B" : "F9B6F9", "C1AE5B" : "F990F9", "9B823E" : "DB5EDB", "84642D" : "A84FA8"},
+	
+	// BROWN
+	{ "E0CF8B" : "CE9D79", "C1AE5B" : "B78764", "9B823E" : "966E52", "84642D" : "7A5338"}
+  ],
+  
+  // FINS
+  "hairColor" : [
+    // BLACK
+    { "197B30" : "343A47", "115521" : "292E38" },
+	
+	// DARK GREY
+	{ "197B30" : "89909E", "115521" : "717682" },
+	
+	// WHITE
+	{ "197B30" : "D5E2E2", "115521" : "BCC6C6" },
+	
+	// RED
+	{ "197B30" : "DB4730", "115521" : "AD3826" },
+	
+	// ORANGE
+	{ "197B30" : "F2B459", "115521" : "D39C4E" },
+	
+	// YELLOW (DEFAULT)
+	{ "197B30" : "C1AE5A", "115521" : "9B823D" },
+	
+	// GREEN
+	{ "197B30" : "61D559", "115521" : "489E42" },
+	
+	// CYAN
+	{ "197B30" : "01C4B4", "115521" : "01A598" },
+	
+	// BLUE (GLACIAL)
+	{ "197B30" : "7FC9FF", "115521" : "509CD3" },
+	
+	// PURPLE
+	{ "197B30" : "A075D1", "115521" : "8662AF" },
+	
+	// PINK
+	{ "197B30" : "EFA7E1", "115521" : "CE90C2" },
+	
+	// BROWN
+	{ "197B30" : "77502C", "115521" : "563A20" }
+  ]
+}

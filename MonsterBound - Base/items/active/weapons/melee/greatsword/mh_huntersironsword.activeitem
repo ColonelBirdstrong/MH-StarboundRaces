@@ -1,0 +1,28 @@
+{
+  "itemName" : "mh_huntersironsword",
+  "price" : 500,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A standardized great sword, used by monster hunters throughout the ages.",
+  "shortdescription" : "Hunter's Iron Greatsword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "huntersironsword.png",
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "huntersironsword.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.89,
+    "baseDps" : 8
+  },
+  "altAbilityType" : "bladecharge",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
