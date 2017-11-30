@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "mh_hiddengemini", "count" : 2 },
-    { "item" : "monsterclaw", "count" : 4 },
-	{ "item" : "refinedferozium", "count" : 5 }
-  ],
-  "output" : { "item" : "mh_hiddengeminit5", "count" : 2 },
-  "groups" : [ "craftingseparator", "weapons", "all" ]
-}

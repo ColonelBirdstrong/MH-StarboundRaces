@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 3 },
-    { "item" : "climbingrope", "count" : 2 }
-  ],
-  "output" : { "item" : "mh_bonekrisshield", "count" : 1 },
-  "groups" : [ "craftinganvil", "weapons", "all" ]
-}

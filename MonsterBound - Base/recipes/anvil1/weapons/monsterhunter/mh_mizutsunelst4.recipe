@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "mh_mizutsunelst3", "count" : 1 },
-    { "item" : "monsterclaw", "count" : 3 },
-	{ "item" : "durasteelbar", "count" : 4 }
-  ],
-  "output" : { "item" : "mh_mizutsunelst4", "count" : 1 },
-  "groups" : [ "craftinganvil2", "weapons", "all" ]
-}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "durasteelbar", "count" : 3 },
-    { "item" : "mh_bonekris", "count" : 1 }
-  ],
-  "output" : { "item" : "mh_lagiasword", "count" : 1 },
-  "groups" : [ "craftinganvil3", "weapons", "all" ]
-}
