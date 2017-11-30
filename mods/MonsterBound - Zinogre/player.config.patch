@@ -1,0 +1,3 @@
+[
+	{ "op" : "add", "path" : "/defaultCodexes/zinogre", "value" : [ "protectorate1", "protectorate2" ] }
+]

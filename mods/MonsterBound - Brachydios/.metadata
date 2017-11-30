@@ -1,0 +1,11 @@
+{
+  "author" : "Brachydios",
+  "description" : "A race of slime powered brute wyverns from the Monster Hunter series. (Slime Xplosions not included...)",
+  "friendlyName" : "MonsterBound - Brachydios Race",
+  "link" : "",
+  "name" : "MonsterBound - Brachydios Race",
+  "path" : ".",
+  "includes" : ["MonsterBound - Base"],
+  "steamContentId" : "",
+  "version" : "1"
+}

@@ -1,0 +1,42 @@
+{
+  "itemName" : "mh_mizutsunelst4",
+  "price" : 960,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "The Kakaru Kumo Naki's final form.",
+  "shortdescription" : "Unsanmusho",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "broadsword"],
+
+  "inventoryIcon" : "mh_divinesightls.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+	"blade" : "mh_divinesightls.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.81,
+    "baseDps" : 11.7,
+
+    "stances" : {
+      "windup1" : {
+        "duration" : 0.15
+      }
+    }
+  },
+
+  "altAbilityType" : "parry",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

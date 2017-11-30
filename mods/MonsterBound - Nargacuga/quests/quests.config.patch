@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/nargacuga",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/nargacuga",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]

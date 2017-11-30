@@ -1,0 +1,67 @@
+{
+	"id" : "mhweaponcodex",
+	"title" : "Weapon Upgrading",
+	"description" : "Lists what Monster Hunter-themed weapons upgrade into.",
+	"icon" : "mh_weaponcodex.png",
+	"contentPages" : [
+"^blue;Great Swords^white;:
+
+ - ^yellow;Iron Sword
+^white;A Great Sword that's seen extended use for ages. Good for beginners, too.
+ -- ^yellow;Iron Sword ^white;upgrades into ^yellow;Carbalite Sword^white;. It can then be upgraded into ^red;Lagiacrus Blade^white;.
+ 
+ - ^yellow;Lagiacrus Blade
+^white;An electric blade made using Lagiacrus materials. Danger: high voltage!
+ -- ^yellow;Lagiacrus Blade ^white;upgrades into ^yellow;High Lagia Blade^white;. It can then be upgraded into ^red;Lagia Lightning^white;.
+ 
+ - ^yellow;Lagia Lightning
+^white;A blue Great Sword as mighty as a real Lagiacrus. The thorns signify its anger.
+ -- ^yellow;Lagia Lightning ^white;upgrades into ^red;Lagia Wildfire^white;.",
+	
+"^blue;Swords & Shields^white;:
+
+ - ^yellow;Bone Kris
+^white;A simple bone sword that's perfect for beginning hunters.
+ -- ^yellow;Bone Kris ^white;upgrades into ^yellow;Chief Kris^white;, and then 
+^yellow;King Kris^white;. King Kris can then be upgraded into the ^red;Lagia Sword^white;.
+
+ - ^yellow;Lagia Sword
+ ^white;A Thunder Sword. Through its blade, flows lightning that multiplies the pain.
+ -- ^yellow;Lagia Sword ^white;upgrades into ^yellow;High Lagia Sword^white;, and then into ^red;Exagia Sword^white;.",
+
+"^blue;Dual Blades^white;:
+
+ - ^yellow;Talon Carvers^white;
+A distinct pair of Dual Blades made from giant claws fixed to handles.
+ -- The ^yellow;Talon Carvers ^white;upgrade into ^yellow;Talon Twins^white;, and then into ^yellow;Talon Gemini^white;. They can then be upgraded into the ^red;Hidden Gemini^white;.
+ 
+ - ^yellow;Hidden Gemini^white;
+Ebon Dual Blades, black as night. Rumored to have been passed down by a cadre of assassins.
+ -- The ^yellow;Hidden Gemini ^white;upgrade into ^yellow;Night Wings^white;, and then into ^red;Avidya Gemini^white;.",
+ 
+"^blue;Long Swords^white;:
+
+ - ^yellow;Kakaru Kumo Naki
+^white;The katana of a samurai war hero. Beautiful and deadly in equal measure.
+ -- ^yellow;Kakaru Kumo Naki^white; upgrades into ^yellow;Tamonowo^white;, and then into ^red;Tamonowo Zekkarei^white;. Tamonowo Zekkari can then be upgraded into ^red;Unsanmusho^white;.
+ 
+ - ^yellow;Unsanmusho
+^white;A Long Sword made from Divinesight Mizutsune materials.
+ -- ^yellow;Unsanmusho^white; upgrades into ^yellow;Tsumakurenai^white;, and then into ^red;Tamakiharuromei^white;.",
+ 
+"^blue;Hammers^white;:
+
+ - ^yellow;Purity Hammer
+^white;A Hammer passed down from a princess who brought peace to the land by dispelling evil.
+ -- ^yellow;Purity Hammer^white; upgrades into ^yellow;Sinter Hammer^white;, and then into ^yellow;Beatitude Hammer^white;. Beatitude Hammer can then be upgraded into ^red;Kojorakugetsu^white;.
+
+ - ^yellow;Kojorakugetsu
+^white;A Hammer made from Divinesight Mizutsune materials.
+ -- ^yellow;Kojorakugetsu^white; upgrades into ^yellow;Hoshikuzu^white;, and then into ^red;Tamakagiru Iwaza^white;."
+ 
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

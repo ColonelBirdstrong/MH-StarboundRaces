@@ -1,0 +1,30 @@
+﻿[
+	[
+		{ "op" : "test", "path" : "/converse/apex/generic", "inverse" : false },
+		{ "op" : "move", "from" : "/converse/apex/generic", "path" : "/converse/apex/default" }
+	],
+	[
+		{ "op" : "test", "path" : "/converse/hylotl/generic", "inverse" : false },
+		{ "op" : "move", "from" : "/converse/hylotl/generic", "path" : "/converse/hylotl/default" }
+	],
+	[
+		{ "op" : "test", "path" : "/converse/avian/generic", "inverse" : false },
+		{ "op" : "move", "from" : "/converse/avian/generic", "path" : "/converse/avian/default" }
+	],
+	[
+		{ "op" : "test", "path" : "/converse/human/generic", "inverse" : false },
+		{ "op" : "move", "from" : "/converse/human/generic", "path" : "/converse/human/default" }
+	],
+	[
+		{ "op" : "test", "path" : "/converse/floran/generic", "inverse" : false },
+		{ "op" : "move", "from" : "/converse/floran/generic", "path" : "/converse/floran/default" }
+	],
+	[
+		{ "op" : "test", "path" : "/converse/glitch/generic", "inverse" : false },
+		{ "op" : "move", "from" : "/converse/glitch/generic", "path" : "/converse/glitch/default" }
+	],
+	[
+		{ "op" : "test", "path" : "/converse/novakid/generic", "inverse" : false },
+		{ "op" : "move", "from" : "/converse/novakid/generic", "path" : "/converse/novakid/default" }
+	]
+]

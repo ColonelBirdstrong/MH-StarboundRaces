@@ -1,0 +1,11 @@
+{
+  "author" : "Zinogre",
+  "description" : "IMPORTANT: REQUIRES MONSTERBOUND - BASE IN ORDER TO FUNCTION!",
+  "friendlyName" : "MonsterBound - Lagiacrus Race",
+  "link" : "",
+  "name" : "MonsterBound - Lagiacrus Race",
+  "path" : ".",
+  "includes" : ["MonsterBound - Base"],
+  "steamContentId" : "",
+  "version" : "1.0"
+}

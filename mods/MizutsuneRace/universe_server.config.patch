@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/mizutsune",
+		"value" : [
+		    "/ships/mizutsune/mizutsunet0.structure",
+			"/ships/mizutsune/mizutsunet1.structure",
+			"/ships/mizutsune/mizutsunet2.structure",
+			"/ships/mizutsune/mizutsunet3.structure",
+			"/ships/mizutsune/mizutsunet4.structure",
+			"/ships/mizutsune/mizutsunet5.structure",
+			"/ships/mizutsune/mizutsunet6.structure",
+			"/ships/mizutsune/mizutsunet7.structure",
+			"/ships/mizutsune/mizutsunet8.structure"
+		]
+	}
+]

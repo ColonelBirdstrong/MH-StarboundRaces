@@ -1,0 +1,11 @@
+{
+  "author" : "Zinogre",
+  "description" : "fug",
+  "friendlyName" : "MonsterBound - Agnaktor Race",
+  "link" : "",
+  "name" : "MonsterBound - Agnaktor Race",
+  "path" : ".",
+  "includes" : ["MonsterBound - Base"],
+  "steamContentId" : "",
+  "version" : "Does it really matter .-."
+}

@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/agna",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/agna",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]
