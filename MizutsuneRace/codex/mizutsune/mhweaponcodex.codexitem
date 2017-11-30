@@ -1,0 +1,10 @@
+{
+"codexId" : "mhweaponcodex",
+"title" : "Weapon Upgrading",
+"codexkind" : "codex",
+"inventoryIcon" : "mh_weaponcodex.png",
+"itemName" : "mhweaponcodex",
+"rarity" : "common",
+"description" : "Lists what Monster Hunter-themed weapons upgrade into.",
+"shortdescription" : "Weapon Upgrading"
+}

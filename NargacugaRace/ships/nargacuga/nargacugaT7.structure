@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "crewSize" : 10
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "nargacugaT7.png",
+      "position" : [44, 34],
+      "fullbright" : true
+    },
+    {
+      "image" : "nargacugaT7lit.png",
+      "position" : [44, 34]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "nargacugaT7blocks.png"
+}

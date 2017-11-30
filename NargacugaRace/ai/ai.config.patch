@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/nargacuga",
+		"value" : {
+			"aiFrames" : "nargacugaAI.png",
+			"portraitFrames" : "portraits/nargacugaportrait.png",
+			"staticFrames" : "staticnargacuga.png"	
+		}
+	}
+]
