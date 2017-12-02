@@ -5,7 +5,7 @@
   "link" : "",
   "name" : "MonsterBound - Agnaktor Race",
   "path" : ".",
-  "includes" : ["MonsterBound - Base"],
+  "requires" : ["MonsterBound - Base"],
   "steamContentId" : "",
   "version" : "Does it really matter .-."
 }
