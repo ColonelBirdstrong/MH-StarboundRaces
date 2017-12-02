@@ -6,6 +6,7 @@
   "link" : "",
   "name" : "MonsterBound - Zinogre Race",
   "path" : ".",
+  "requires" : ["MonsterBound - Base"],
   "steamContentId" : "",
   "version" : "1"
 }

@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "mh_taloncarverl", "count" : 1 },
-    { "item" : "monsterclaw", "count" : 1 },
-	{ "item" : "tungstenbar", "count" : 3 }
-  ],
-  "output" : { "item" : "mh_taloncarverlt2", "count" : 1 },
-  "groups" : [ "craftinganvil", "weapons", "all" ]
-}

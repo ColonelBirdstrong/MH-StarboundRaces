@@ -5,7 +5,7 @@
   "link" : "",
   "name" : "MonsterBound - Brachydios Race",
   "path" : ".",
-  "includes" : ["MonsterBound - Base"],
+  "requires" : ["MonsterBound - Base"],
   "steamContentId" : "",
   "version" : "1"
 }

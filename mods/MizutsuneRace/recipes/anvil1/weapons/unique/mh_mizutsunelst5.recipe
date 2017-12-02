@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "mh_mizutsunelst4", "count" : 1 },
-    { "item" : "monsterclaw", "count" : 4 },
-	{ "item" : "refinedferozium", "count" : 5 }
-  ],
-  "output" : { "item" : "mh_mizutsunelst5", "count" : 1 },
-  "groups" : [ "craftingseparator", "weapons", "all" ]
-}

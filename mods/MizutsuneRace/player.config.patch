@@ -1,9 +1,0 @@
-[
-{ "op" : "add", "path" : "/defaultCodexes/mizutsune", "value" : [ "protectorate1", "protectorate2", "mizutsunediary" ] },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "mh_mizutsunels" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "mh_mizutsunelst2" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "mh_mizutsunelst3" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "mh_mizutsunelst4" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "mh_mizutsunelst5" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "mh_mizutsunelst6" } }
-]

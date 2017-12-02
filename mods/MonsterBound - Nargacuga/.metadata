@@ -5,6 +5,7 @@
   "link" : "",
   "name" : "MonsterBound - Nargacuga Race",
   "path" : ".",
+  "requires" : ["MonsterBound - Base"],
   "steamContentId" : "",
   "version" : "0.7"
 }
