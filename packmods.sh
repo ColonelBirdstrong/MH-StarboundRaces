@@ -10,7 +10,7 @@ function help {
 
 function get_asset_packer_location {
         # If a location is stored and the user didn't specify not to use it, use it.
-        if [ -e .starboundlocation.txt ] && [ "$1" != "nosavedlocation" ]; then
+        if [ -e .starboundlocation.txt ] && [ "${1,,}" != "nosavedlocation" ]; then
                 sb_loc=$(cat .starboundlocation.txt)
         else
                 # Otherwise prompt for a new location and store it.
