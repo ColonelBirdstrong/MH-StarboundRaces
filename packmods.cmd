@@ -1,22 +1,24 @@
 @ECHO off
 REM This script will pack all mods and write them to an output directory.
-REM On first execution, the script will ask for the steam install location and optionally store it for future use.
+REM On first execution, the script will ask for the Starbound install location and optionally store it for future use.
 
 IF /I "%1"=="help" GOTO help
 
-IF DEFINED STEAM_LOCATION GOTO ldloc
+IF EXIST .starboundlocation.txt GOTO ldloc
 
 :promptloc
-REM Prompt the user for the Steam install location and store it for future use.
-SET /P steam=Enter your Steam install location: || SET steam=C:\Program Files (x86)\Steam
-ECHO Storing your Steam install location for future use. You can change it in the future by running this script with the 'nosavedlocation' option. This may take several seconds to complete...
-SETX STEAM_LOCATION "%steam%"
+REM Prompt the user for the Starbound install location and store it for future use.
+SET /P starbound=Enter your Starbound install location: || SET steam="C:\Program Files (x86)\Steam\steamapps\common\Starbound"
+ECHO Storing your Starbound install location for future use. You can change it in the future by running this script with the 'nosavedlocation' option.
+IF EXIST .starboundlocation.txt DEL .starboundlocation.txt
+ECHO %starbound% > .starboundlocation.txt
+ATTRIB +h .starboundlocation.txt
 GOTO pack
 
 :ldloc
-REM Load the Steam install location unless the user specified not to.
+REM Load the Starbound install location unless the user specified not to.
 IF /I "%1"=="nosavedlocation" GOTO promptloc
-SET steam=%STEAM_LOCATION%
+SET /P starbound=<.starboundlocation.txt
 GOTO pack
 
 :pack
@@ -25,7 +27,7 @@ IF EXIST "%CD%\output" (RMDIR /S /Q output)
 MKDIR output
 
 FOR /F "tokens=*" %%G IN ('DIR /B /A:D mods') DO (
-	"%steam%\steamapps\common\Starbound\win32\asset_packer.exe" "%CD%\mods\%%G" "%CD%\output\%%G.pak"
+	"%starbound%\win32\asset_packer.exe" "%CD%\mods\%%G" "%CD%\output\%%G.pak"
 )
 PAUSE
 GOTO end

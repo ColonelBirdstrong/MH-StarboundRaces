@@ -1,6 +1,6 @@
 #!/bin/bash
 # This script will pack all mods and write them to an output directory.
-# On first execution, the script will ask for the steam install location and optionally store it for future use.
+# On first execution, the script will ask for the Starbound install location and optionally store it for future use.
 
 function help {
         echo "help            - Display this message and exit."
@@ -10,7 +10,7 @@ function help {
 
 function get_asset_packer_location {
         # If a location is stored and the user didn't specify not to use it, use it.
-        if [ -e .starboundlocation.txt ] && [ "${1,,}" != "nosavedlocation" ]; then
+        if [ -f .starboundlocation.txt ] && [ "${1,,}" != "nosavedlocation" ]; then
                 sb_loc=$(cat .starboundlocation.txt)
         else
                 # Otherwise prompt for a new location and store it.
