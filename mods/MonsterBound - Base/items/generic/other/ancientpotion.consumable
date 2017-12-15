@@ -1,0 +1,42 @@
+{
+  "itemName" : "ancientpotion",
+  "rarity" : "Rare",
+  "price" : 7500,
+  "category" : "medicine",
+  "inventoryIcon" : "ancientpotion.png",
+  "description" : "Fully restores health and temporarily blocks most debuffs.",
+  "shortdescription" : "Ancient Potion",
+  "effects" : [ [
+      {
+        "effect" : "ancientpotionheal"
+      },
+	  {
+        "effect" : "fireblock",
+        "duration" : 30
+      },
+      {
+        "effect" : "iceblock",
+        "duration" : 30
+      },
+      {
+        "effect" : "electricblock",
+        "duration" : 30
+      },
+      {
+        "effect" : "poisonblock",
+        "duration" : 30
+      },
+	  {
+		"effect": "specialblock",
+		"duration": 30
+	  }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "mhdrinking" ],
+  "blockingEffects" : [
+    "salveheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal"
+  ]
+}

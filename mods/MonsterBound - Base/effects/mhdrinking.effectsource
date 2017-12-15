@@ -1,0 +1,13 @@
+{
+  "kind" : "mhdrinking",
+  "location" : "mouth",
+  "definition" : {
+    "duration" : 0.3,
+    "loops" : true,
+    "start" : {
+      "sounds" : [
+        [ "/sfx/humanoid/mhdrink.ogg" ]
+      ]
+    }
+  }
+}

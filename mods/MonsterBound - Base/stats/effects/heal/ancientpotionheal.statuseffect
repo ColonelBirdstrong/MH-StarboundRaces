@@ -1,0 +1,17 @@
+{
+  "name" : "ancientpotionheal",
+  "effectConfig" : {
+    "healAmount" : 10000,
+    "emissionRate" : 1
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "heal.lua"
+  ],
+
+  "animationConfig" : "heal.animation",
+
+  "label" : "Healing",
+  "icon" : "/interface/statuses/heal.png"
+}

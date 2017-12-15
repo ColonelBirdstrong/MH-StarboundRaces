@@ -1,0 +1,16 @@
+{
+  "itemName" : "dashjuice",
+  "rarity" : "Uncommon",
+  "price" : 400,
+  "category" : "medicine",
+  "inventoryIcon" : "dashjuice.png",
+  "description" : "Grants massive energy regeneration for a short time.",
+  "shortdescription" : "Dash Juice",
+  "effects" : [ [
+    {
+        "effect" : "energyregen",
+        "duration" : 15
+    }
+  ] ],
+  "emitters": [ "mhdrinking" ]
+}
