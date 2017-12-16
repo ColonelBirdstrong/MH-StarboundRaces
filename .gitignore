@@ -1,2 +1,49 @@
+### VERY IMPORTANT READ THIS ###
+# If you are working on this project
+# using a development environment (IE:
+# "the thing you write code in") you
+# should do some brief research into
+# what (if any) "editor-data" files you
+# should not push to a Git repo! and add
+# them here! These are typically covered
+# by the Regex "/.**", but there are
+# environments that generate files that
+# you SHOULD NOT COMMIT! If your environment
+# is not already labled in this .gitignore,
+# feel free to add it as well as the editor
+# files necessary to exclude in the format
+# below:
+#
+#   ### Development Environment Name ###
+#   REGEX1
+#   REGEX2
+#   REGEX3
+#   REGEX...
+#
+
+### General Coverage ###
+# Generally speaking, most development
+# environments have their editor-data files
+# begin with a period
+/.**
+
+# Never exclude a .gitignore
+# or .editorconfig file
+!.editorconfig
+!.gitignore
+
+!.gitattributes
+
+### Starbound Project Files ###
+!.metadata
+
+# TODO Collect the file extensions of files we should never exclude (such as ".patch") and make sure to force include them
+
+### Intellij Project ###
+*.iml
+*.ipr
+*.iws
+
+### Mod Packer Files ###
 [oO]utput/
 .starboundlocation.txt
