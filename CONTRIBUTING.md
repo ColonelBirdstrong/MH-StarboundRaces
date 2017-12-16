@@ -39,6 +39,9 @@ Otherwise, you'll want to create a new local branch with `git checkout -b my_bra
 > We recommend you do some research into whatever development
 > environment you might use and add them to the `.girignore`
 > [here](https://github.com/ColonelBirdstrong/MH-StarboundRaces/blob/master/.gitattributes)
+>
+> More info on `.gitignore` files can be found
+> [here](https://git-scm.com/docs/gitignore)
 
 ## A Big Commitment
 
