@@ -43,3 +43,7 @@
 *.iml
 *.ipr
 *.iws
+
+### Mod Packer Files ###
+[oO]utput/
+.starboundlocation.txt
