@@ -31,6 +31,10 @@ function pack_mods {
                 [ -d "${dir}" ] || continue
                 dirname=$(basename "${dir}")
                 "${sb_loc}/linux/asset_packer" "./${dir}" "./output/${dirname}.pak"
+				case "$OSTYPE" in
+					darwin*) "${sb_loc}/osx/asset_packer" "./${dir}" "./output/${dirname}.pak" ;;
+					*)       "${sb_loc}/linux/asset_packer" "./${dir}" "./output/${dirname}.pak" ;;
+				esac
         done
 }
 
