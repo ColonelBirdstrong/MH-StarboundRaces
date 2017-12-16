@@ -22,6 +22,24 @@ If you don't have access to the repository you should make a fork, and you can t
 
 Otherwise, you'll want to create a new local branch with `git checkout -b my_branch_name`. `git checkout` is used to switch between existing branches. The `-b` option tells git to create the branch if it does not already exist. Don't include the option if the branch you're switching to already exists!
 
+> ### You Shouldn't Ignore It!
+> A `.gitignore` is a file that prevents (or forces)
+> certain files from getting pushed to the GitHub repo
+>
+> Typically these are "editor-specific" files, stuff
+> a development environment (the thing you type code in)
+> creates to make your life easier!
+>
+> Unfortunately, these files can make maintaining a
+> project very hard if everyone decides to commit them,
+> and would cause it to be full of useless and random
+> files that cause confusion to someone who might be new
+> to contributing to a multi-developer project!
+>
+> We recommend you do some research into whatever development
+> environment you might use and add them to the `.girignore`
+> [here](https://github.com/ColonelBirdstrong/MH-StarboundRaces/blob/master/.gitattributes)
+
 ## A Big Commitment
 
 Now, make your changes and commit them. `git status` will tell you which files have been changed and if they have been staged for commit. You can add unstaged files with `git add` and remove deleted files with `git rm`. To commit, simply do `git commit -m "My commit message"`. You can amend your latest commit with the `--amend` option, but you should never amend a change that has already been pushed. 
