@@ -1,0 +1,48 @@
+{
+  "objectName" : "mhherbseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "When mature, this herb can be used to make powerful medicines.",
+  "shortdescription" : "Herb Sprout",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 10,
+
+  "inventoryIcon" : "mhherbseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "mhherbseed.png:default.2.0",
+
+  "orientations" : [
+    {
+      "dualImage" : "mhherbseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      //"duration" : [570, 630]
+	  "duration" : [25, 50]
+    },
+    {
+      //"duration" : [570, 630]
+	  "duration" : [25, 50]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "mhHerbHarvest",
+	  "resetToStage" : 0
+    }
+  ],
+
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.125
+}

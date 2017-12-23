@@ -1,0 +1,29 @@
+[
+  {"op":"add", "path":"/blueMushroomHarvest", "value": [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "bluemushroom"},
+        {"weight" : 0.01, "item" : "bluemushroomseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ] },
+  
+  {"op":"add", "path":"/mhHerbHarvest", "value": [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "mhherb"},
+        {"weight" : 0.01, "item" : "mhherbseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ] }
+]

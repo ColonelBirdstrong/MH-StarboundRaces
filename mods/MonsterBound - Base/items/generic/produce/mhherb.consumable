@@ -1,0 +1,15 @@
+{
+  "itemName" : "mhherb",
+  "rarity" : "Common",
+  "price" : 10,
+  "category" : "medicine",
+  "inventoryIcon" : "mhherb.png",
+  "description" : "An herb with basic medicinal properties. Restores 25 over 2 seconds.",
+  "shortdescription" : "Herb",
+  "effects" : [ [
+      {
+        "effect" : "herbheal"
+      }
+    ] ],
+  "emitters" : [ "bandageuse" ]
+}

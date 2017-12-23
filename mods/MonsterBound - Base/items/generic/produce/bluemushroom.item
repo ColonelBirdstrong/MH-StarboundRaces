@@ -1,0 +1,11 @@
+{
+  "itemName" : "bluemushroom",
+  "rarity" : "Common",
+  "price" : 5,
+  "category" : "craftingMaterial",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "bluemushroom.png",
+  "description" : "A relatively rare mushroom. Useful in crafting thanks to its power-enhancing properties.",
+  "shortdescription" : "Blue Mushroom",
+  "maxStack" : 1000
+}

@@ -1,0 +1,52 @@
+{
+  "objectName" : "bluemushroomseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A blue mushroom. The farmer who plants these is a fun guy.",
+  "shortdescription" : "Blue Mushroom Spore",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 100,
+
+  "biomePlaced" : true,
+
+  "inventoryIcon" : "bluemushroomseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "bluemushroomseed.png:default.2.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "bluemushroomseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [2820, 2820]
+    },
+    {
+      "duration" : [2820, 2820]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "blueMushroomHarvest",
+	  "resetToStage" : 0
+    }
+  ],
+
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.25
+}
