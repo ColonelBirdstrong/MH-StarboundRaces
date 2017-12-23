@@ -1,0 +1,29 @@
+[
+    {
+        "op": "add",
+        "path": "/greeting/lagi",
+        "value": {
+            "default": [
+            	"Nice to meet you!",
+                "You aren't a hunter, are you?",
+                "Hello there.",
+                "Welcome!",
+                "rrerr!"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/converse/lagi",
+        "value": {
+            "default": [
+            	"You mess with croco, you get the shocko.",
+                "Got any fish?",
+                "I won't bite... probably.",
+                "Royal Ludroth wishes he could be a great as I am.",
+                "You wanna see something shocking?",
+                "Did you ever meet my friend Zin?"
+            ]
+        }
+    }
+]

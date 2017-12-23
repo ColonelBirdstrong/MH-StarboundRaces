@@ -12,7 +12,7 @@
     {
       "spawn": "npc",
       "species": "lagi",
-      "type": "lagitenant",
+      "type": "generictenant",
       "overrides": {
        }
      }

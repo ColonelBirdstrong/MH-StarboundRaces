@@ -1,0 +1,22 @@
+[
+    {
+        "op": "add",
+        "path": "/beacon/lagi",
+        "value": {
+            "default": [
+                "Did you need me for something?",
+                "Hey! Did you want to chat?"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/rent/lagi",
+        "value": {
+            "default": [
+                "Here's a little something as thanks.",
+                "I took this from a hunter, but you can have it!"
+            ]
+        }
+    }
+]
