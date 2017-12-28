@@ -5,6 +5,8 @@
     "value": [[0, {
       "fill" : [
 	    {"item" : [ "flashlight" ]},
+		{"item" : [ "invishead" ]},
+		{"item" : [ "invisback" ]},
         {"item" : [ "torch", 10 ]},
 		{"item" : [ "mh_huntersironsword", 1 ]},
         {"item" : [ "cannedfood", 1 ]},
