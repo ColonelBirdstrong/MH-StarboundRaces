@@ -1,0 +1,28 @@
+[
+    {
+        "op": "add",
+        "path": "/greeting/brachydios",
+        "value": {
+            "default": [
+            	"Nice to meet you!",
+                "You aren't a hunter, are you?",
+                "Hello there.",
+                "Welcome!",
+                "rrerr!"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/converse/brachydios",
+        "value": {
+            "default": [
+                "hrroarr!",
+                "There's nothing between Guildmarm and I, I swear!",
+                "Watch your step.",
+                "It's hard to grab things with these claws.",
+                "Do you have any tissues?"
+            ]
+        }
+    }
+]

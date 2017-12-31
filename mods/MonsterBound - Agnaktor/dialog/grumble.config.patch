@@ -1,0 +1,55 @@
+[
+    {
+        "op": "add",
+        "path": "/tagCriteria/agna",
+        "value": {
+            "default": [
+                "Have you been taking things out of my home?",
+                "I don't like what you did to my home...",
+                "You changed something, put back what you took!"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/enclosedArea/agna",
+        "value": {
+            "default": [
+                "My home seems to be damaged...",
+                "Could you please repair my home?"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/otherDeed/agna",
+        "value": {
+            "default": [
+                "Hey, I didn't agree to have a roommate!",
+                "Monsters don't like to share territory, you know."
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/severe/agna",
+        "value": {
+            "default": [
+                "You still haven't fixed my home!",
+                "Fix my home, or I'm leaving.",
+                "This is no better than living in the wilderness!"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/final/agna",
+        "value": {
+            "default": [
+                "That's it, I'm out of here!",
+                "These conditions are disgraceful, I can't live here anymore!",
+                "I can't believe this. I'm going back to my volcano."
+            ]
+        }
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "op": "add",
+        "path": "/greeting/agna",
+        "value": {
+            "default": [
+            	"Nice to meet you!",
+                "You aren't a hunter, are you?",
+                "Hello there.",
+                "Welcome!",
+                "rrerr!"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/converse/agna",
+        "value": {
+            "default": [
+                "*clacking*",
+                "Look out, Spicynoodle comin' through!",
+                "Click Clack give me a snack.",
+                "I'm not as hot-headed as you expect.",
+                "Need a great cook? I make some mean grilled steaks!"
+            ]
+        }
+    }
+]

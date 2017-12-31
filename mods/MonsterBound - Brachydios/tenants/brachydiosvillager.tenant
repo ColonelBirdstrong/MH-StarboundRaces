@@ -1,17 +1,17 @@
 {
-  "name": "lagivillager",
+  "name": "brachydiosvillager",
   "priority": 2,
 
   "colonyTagCriteria": {
     "light": 1,
     "door": 1,
-	"ocean": 4
+	"volcanic": 4
   },
 
   "tenants": [
     {
       "spawn": "npc",
-      "species": "lagi",
+      "species": "brachydios",
       "type": "generictenant",
       "overrides": {
        }
