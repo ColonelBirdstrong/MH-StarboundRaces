@@ -1,0 +1,6 @@
+### Gradle Files ###
+/build/
+/.gradle/
+
+### Intellij Files ###
+/out/
