@@ -1,0 +1,26 @@
+[
+    {
+        "op": "add",
+        "path": "/accuse/mizutsune",
+        "value": {
+            "default": [
+                "Hey, give that back!",
+                "That isn't yours to take!",
+                "You're just as bad as a hunter!",
+                "Put that back before I call the guards!"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/alert/mizutsune",
+        "value": {
+            "default": [
+                "Thief! Guards, stop them!",
+                "Guards, guards! Stop this thief!",
+                "Get back here, criminal!",
+                "I won't let you get away with this!"
+            ]
+        }
+    }
+]

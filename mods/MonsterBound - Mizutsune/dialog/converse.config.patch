@@ -1,0 +1,29 @@
+[
+    {
+        "op": "add",
+        "path": "/greeting/mizutsune",
+        "value": {
+            "default": [
+            	"Nice to meet you!",
+                "You aren't a hunter, are you?",
+                "Hello there.",
+                "Welcome!",
+                "rrerr!"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/converse/mizutsune",
+        "value": {
+            "default": [
+            	"Don't slip on the bubbles!",
+                "Wouldn't you like to have fur as fluffy as mine?",
+                "You can look, but you can't touch.",
+                "The other monsters wish they could be as pretty as I am.",
+                "Maybe I'll give you some of my bubbles, if you ask nicely...",
+                "I wanna be a- oh, nevermind!"
+            ]
+        }
+    }
+]
