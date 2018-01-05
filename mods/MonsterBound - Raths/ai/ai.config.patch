@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/rath",
+		"value" : {
+			"aiFrames" : "monsterAI.png",
+			"portraitFrames" : "portraits/monsterportrait.png",
+			"staticFrames" : "staticmonster.png"	
+		}
+	}
+]

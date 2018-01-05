@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/rath",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/rath",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]
