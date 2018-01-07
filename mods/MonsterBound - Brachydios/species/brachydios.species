@@ -1,21 +1,21 @@
 {
   "kind" : "brachydios",
-	"charCreationTooltip" : {
-	"title" : "Brachydios",
-	"subTitle" : "O2",
-	"description" : "Slime powered Brute Wyverns from Capcom's Monster Hunter Franchise (No, it doesn't come with actual explosive slime unfortunately...)."
+    "charCreationTooltip" : {
+    "title" : "Brachydios",
+    "subTitle" : "O2",
+    "description" : "Slime powered Brute Wyverns from Capcom's Monster Hunter Franchise (Does not include actual explosive slime, unfortunately...)."
   },
   "nameGen" : [ "/species/brachydiosmalenamegen.config:names", "/species/brachydiosfemalenamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/brachydioshurt_male1.ogg", "/sfx/humanoid/brachydioshurt_female1.ogg" ],
-  "charGenTextLabels" : [ "Body color", "", "Shirt", "Legwear", "Slime color", "", "Shirt colour", "Legwear colour", "Brachydios", "Personality" ],
+  "charGenTextLabels" : [ "Body color", "Special horn", "Shirt", "Legwear", "Slime color", "Underbelly", "Shirt colour", "Legwear colour", "Brachydios", "Personality" ],
   "skull" : "/humanoid/brachydios/dead.png",
   "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
   "defaultBlueprints" : {
     "tier1" : [
-	
+    
   // Empty Hands
       { "item" : "flagmonster" },
-	    
+        
 // Anvil
       { "item" : "humantier1head" },
       { "item" : "humantier1chest" },
@@ -76,22 +76,23 @@
       { "item" : "avianfancyskirt" },
       { "item" : "avianworkershirt" },
       { "item" : "avianworkerpants" },
-	  { "item" : "invisback" },
+      { "item" : "invisback" },
       { "item" : "invischest" },
-	  { "item" : "invislegs" },
-	  { "item" : "invishead" }
-	  ]
+      { "item" : "invislegs" },
+      { "item" : "invishead" }
+      ]
   },
   
   "altOptionAsUndyColor" : true,
   "headOptionAsHairColor" : true,
   "altOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
   "genders" : [
     {
        "name" : "male",
       "image" : "/interface/title/monmaleico.png",
       "characterImage" : "/interface/title/brachydiosmale.png",
-      "hair" : [ "male54" ],
+      "hair" : [ "male54", "male55" ],
       "shirt" : [ "avianadventurershirt", "aviancommonershirt", "avianfancyshirt", "avianworkershirt", "protectorateshirtchest", "protectoratevestchest", "invischest" ],
       "pants" : [ "avianadventurerpants", "aviancommonerlegs", "avianfancyskirt", "avianworkerpants", "invislegs" ],
       "facialHairGroup" : "",
@@ -112,90 +113,157 @@
       "facialMask" : [ ]
     }
   ],
-  // Body, tail, horns
+  // Main Body
   "bodyColor" : [
-    //BLUE-GREEN (WARHEAD BRACHYDIOS)
-    { "0B0F8E" : "3F606F", "140051" : "08202B", "1C0070" : "1F252F", "0E0335" : "000F11", "21007F" : "1A546D" },
-    //BLUE (NORMAL BRACHYDIOS)
+     
+     //BLUE (DEFAULT BRACHYDIOS)
     { "0B0F8E" : "0B0F8E", "140051" : "140051", "1C0070" : "1C0070", "0E0335" : "0E0335", "21007F" : "21007F" },
-    //YELLOW (RADIOACTIVE BRACHYDIOS)
-    { "0B0F8E" : "E1FF00", "140051" : "AFB500", "1C0070" : "D5E500", "0E0335" : "4B7100", "21007F" : "B7FF00" },
+
+    //DARK-GREEN (WARHEAD BRACHYDIOS)
+    { "0B0F8E" : "3F606F", "140051" : "08202B", "1C0070" : "1B3C49", "0E0335" : "000F11", "21007F" : "1A546D" },
+
+    //YELLOW (HYPER BRACHYDIOS)
+    { "0B0F8E" : "DAF700", "140051" : "7B9200", "1C0070" : "D5E500", "0E0335" : "6D7700", "21007F" : "B7FF00" },
+
     //WHITE (MIZUTSUNE <3)
-    { "0B0F8E" : "FEF4F3", "140051" : "312452", "1C0070" : "4A3163", "0E0335" : "231A3C", "21007F" : "E6ABC9" }
+    { "0B0F8E" : "FFECED", "140051" : "F9CCE3", "1C0070" : "EAB9D2", "0E0335" : "C67BA2", "21007F" : "EFDE6E" },
+
+    //MIDNIGHT (ABYSSAL BRACHYDIOS)
+    { "0B0F8E" : "0A0A1E", "140051" : "020311", "1C0070" : "161228", "0E0335" : "00000A", "21007F" : "19192F" },
+
+    //DISCO-WHITE (POISONHEAD BRACHYDIOS)
+    { "0B0F8E" : "F4EDF7", "140051" : "C1BEC1", "1C0070" : "D8C3D8", "0E0335" : "969696", "21007F" : "E094E0" },
+
+    //MILITARY-GREEN (RAGING BRACHYDIOS)
+    { "0B0F8E" : "023F2C", "140051" : "001D34", "1C0070" : "012836", "0E0335" : "00132A", "21007F" : "023439" },
+
+    //BURNING-RED (MOLTEN BRACHYDIOS)
+    { "0B0F8E" : "590513", "140051" : "290007", "1C0070" : "38010A", "0E0335" : "1D0005", "21007F" : "48030E" },
+    
+    //BLACK (TARRED BRACHYDIOS)
+    { "0B0F8E" : "27181B", "140051" : "0A0810", "1C0070" : "140B13", "0E0335" : "05050C", "21007F" : "1C1117" },
+    
+    //GLOWING-GREEN (RADIOACTIVE BRACHYDIOS)
+    { "0B0F8E" : "89D922", "140051" : "04A508", "1C0070" : "35B80C", "0E0335" : "028D15", "21007F" : "5AC717" },
+    
+    //GREY (BEATAPHONE? BRACHYDIOS)
+    { "0B0F8E" : "CDC4C4", "140051" : "928788", "1C0070" : "A49999", "0E0335" : "817676", "21007F" : "B8AEAF" },
+    
+    //BRIGHT-BLUE (FROSTBITE BRACHYDIOS)
+    { "0B0F8E" : "4ECDF1", "140051" : "1387C9", "1C0070" : "1FA2D9", "0E0335" : "0976B5", "21007F" : "24BAE5" },
+    
+    //BROWN (SCORCHED BRACHYDIOS)
+    { "0B0F8E" : "A15523", "140051" : "6A230F", "1C0070" : "803518", "0E0335" : "5B1B07", "21007F" : "8C431B" },
+    
+    //PURPLISH (PURPLE BRACHYDIOS)
+    { "0B0F8E" : "8080F4", "140051" : "2C43A6", "1C0070" : "4F5BCC", "0E0335" : "1D3395", "21007F" : "6868E9" },
+    
+    //GOLDEN-BROWN (BUTTERED BRACHYDIOS)
+    { "0B0F8E" : "F1C15A", "140051" : "DE801C", "1C0070" : "E49B26", "0E0335" : "D16F0F", "21007F" : "EEAB42" },
+    
+    //REGULAR-GREEN (SWAMP BRACHYDIOS)
+    { "0B0F8E" : "376229", "140051" : "21340D", "1C0070" : "294615", "0E0335" : "1B2606", "21007F" : "2C521E" }
   ],
-  // Slime & eyes
+  // Slime & Eyes
   "undyColor" : [
-    //CRIMSON (WARHEAD BRACHYDIOS)
-    { "3DCC00" : "c63442", "4CFF00" : "9b2724", "BC0000" : "71CC00" },
-    //GREEN (NORMAL BRACHYDIOS)
+    
+    //GREEN (DEFAULT BRACHYDIOS)
     { "3DCC00" : "3DCC00", "4CFF00" : "4CFF00", "BC0000" : "BC0000" },
-    //CYAN (RADIOACTIVE BRACHYDIOS)
-    { "3DCC00" : "144BFF", "4CFF00" : "00AEFF", "BC0000" : "4800FF" },
+
+    //CRIMSON (WARHEAD BRACHYDIOS)
+    { "3DCC00" : "CE0404", "4CFF00" : "D62F42", "BC0000" : "71F400" },
+
+    //SKY-BLUE (HYPER BRACHYDIOS)
+    { "3DCC00" : "1471FF", "4CFF00" : "00AEFF", "BC0000" : "59B9FF" },
+
     //KHAKI (MIZUTSUNE <3)
-    { "3DCC00" : "C9B552", "4CFF00" : "DCC65A", "BC0000" : "BC0000" }
+    { "3DCC00" : "C9B552", "4CFF00" : "DCC65A", "BC0000" : "0C9AFF" },
+
+    //CYAN (ABYSSAL BRACHYDIOS)
+    { "3DCC00" : "00CECE", "4CFF00" : "00FFFF", "BC0000" : "FFFF00" },
+
+    //GLOWING-PINK (POISONHEAD BRACHYDIOS)
+    { "3DCC00" : "B007FF", "4CFF00" : "E123FF", "BC0000" : "FF004A" },
+
+    //TANGY-ORANGE (RAGING BRACHYDIOS)
+    { "3DCC00" : "ED7307", "4CFF00" : "FFD800", "BC0000" : "BC0000" },
+
+    //BURNT-ORANGE (MOLTEN BRACHYDIOS)
+    { "3DCC00" : "EC2C00", "4CFF00" : "FF721E", "BC0000" : "FF8400" },
+
+    //OIL-BLUE (TARRED BRACHYDIOS)
+    { "3DCC00" : "16182F", "4CFF00" : "23285C", "BC0000" : "0657FF" },
+
+    //RADIOACTIVE-YELLOW (RADIOACTIVE BRACHYDIOS)
+    { "3DCC00" : "BBFF38", "4CFF00" : "E0FF35", "BC0000" : "F81253" },
+
+    //RED (BEATAPHONE? BRACHYDIOS)
+    { "3DCC00" : "CE1717", "4CFF00" : "F43535", "BC0000" : "FF6428" },
+
+    //FROZEN-BLUE (FROSTBITE BRACHYDIOS)
+    { "3DCC00" : "71FEFF", "4CFF00" : "B5FEF8", "BC0000" : "2BF16D" },
+
+    //REGULAR-ORANGE (SCORCHED BRACHYDIOS)
+    { "3DCC00" : "ED6631", "4CFF00" : "FC9353", "BC0000" : "FFCC00" },
+
+    //PINK (PURPLE BRACHYDIOS)
+    { "3DCC00" : "DA45D2", "4CFF00" : "FF71F7", "BC0000" : "18BBFF" },
+
+    //BLOODY-RED (BUTTERED BRACHYDIOS)
+    { "3DCC00" : "98181E", "4CFF00" : "B92A31", "BC0000" : "8336E2" },
+
+    //SEWAGE-GREEN (SWAMP BRACHYDIOS)
+    { "3DCC00" : "707F0F", "4CFF00" : "90A11A", "BC0000" : "0DCC28" }
   ],
+  // Underbelly
   "hairColor" : [
-    //LIGHT RED
-    { "d9c189" : "E86D46", "a38d59" : "D1422E", "735e3a" : "96201B" },
-    //RED
-    { "d9c189" : "CD1C38", "a38d59" : "982441", "735e3a" : "69243F" },
-    //DARK RED
-    { "d9c189" : "ad2716", "a38d59" : "8f1f1b", "735e3a" : "731a1a" },
-    //RUSTY RED
-    { "d9c189" : "BE471B", "a38d59" : "9B2F0C", "735e3a" : "702710" },
-    //BROWN
-    { "d9c189" : "7d3c1c", "a38d59" : "4d240b", "735e3a" : "2d1606" },
-    //LIGHT BROWN
-    { "d9c189" : "7f5a39", "a38d59" : "5b3523", "735e3a" : "3b1f15" },
-    //DIRTY ORANGE
-    { "d9c189" : "a6671d", "a38d59" : "915622", "735e3a" : "743e1d" },
-    //ORANGE
-    { "d9c189" : "efa838", "a38d59" : "be6d1d", "735e3a" : "834012" },
-    //DIRTY BLONDE
-    { "d9c189" : "eaa758", "a38d59" : "cd8b3d", "735e3a" : "93682c" },
-    //YELLOW
-    { "d9c189" : "e6e756", "a38d59" : "c7ac3f", "735e3a" : "a9882f" },
-    //BLONDE
-    { "d9c189" : "f1d992", "a38d59" : "daba5e", "735e3a" : "b59a4d" },
-    //LIGHT YELLOW
-    { "d9c189" : "f2eba3", "a38d59" : "dcd28c", "735e3a" : "c2b677" },
-    //LIGHT GREEN
-    { "d9c189" : "A7D13D", "a38d59" : "83AD22", "735e3a" : "6B880B" },
-    //GREEN
-    { "d9c189" : "4ece61", "a38d59" : "34ae47", "735e3a" : "228a38" },
-    //DARK GREEN
-    { "d9c189" : "3b7f44", "a38d59" : "2e6a38", "735e3a" : "1d4b28" },
-    //TORQUOISE
-    { "d9c189" : "5BD5B6", "a38d59" : "4AA9AD", "735e3a" : "237082" },
-    //LIGHT TURQUOISE
-    { "d9c189" : "49E193", "a38d59" : "3BA380", "735e3a" : "197C81" },
-    //LIGHT BLUE
-    { "d9c189" : "61BCDE", "a38d59" : "5381CC", "735e3a" : "2C489E" },
-    //BLUE
-    { "d9c189" : "5d8bc7", "a38d59" : "4d55b0", "735e3a" : "2e2a73" },
-    //DARK BLUE
-    { "d9c189" : "425879", "a38d59" : "343965", "735e3a" : "242247" },
-    //DARK PURPLE
-    { "d9c189" : "7f3b6d", "a38d59" : "6a2e53", "735e3a" : "4b1d30" },
-    //PURPLE
-    { "d9c189" : "653b7f", "a38d59" : "562e6a", "735e3a" : "3f1d4b" },
-    //HOT PINK
-    { "d9c189" : "cd72d9", "a38d59" : "ac4da6", "735e3a" : "913b86" },
-    //PINK
-    { "d9c189" : "D26BA4", "a38d59" : "A54669", "735e3a" : "89334D" },
-    //LIGHT PURPLE
-    { "d9c189" : "ad68e2", "a38d59" : "8d41b0", "735e3a" : "6a2980" },
-    //BROWN GREY
-    { "d9c189" : "50422f", "a38d59" : "36261e", "735e3a" : "170f0d" },
-    // DARK GREY
-    { "d9c189" : "525252", "a38d59" : "363636", "735e3a" : "161616" },
-    // GREY
-    { "d9c189" : "74726f", "a38d59" : "53504d", "735e3a" : "2a251e" },
-    // GREY BLUE
-    { "d9c189" : "6f6d85", "a38d59" : "525269", "735e3a" : "3e4352" },
-    // LIGHT GREY
-    { "d9c189" : "b8b8b8", "a38d59" : "828282", "735e3a" : "555555" },
-    // WHITE
-    { "d9c189" : "eaeaea", "a38d59" : "b8b8b8", "735e3a" : "828282" }
+    
+    //GREY (DEFAULT)
+    { "7F7799" : "7F7799", "594B87" : "594B87" },
+    
+    //ARMY-BROWN (WARHEAD)
+    { "7F7799" : "A79977", "594B87" : "875F4A" },
+    
+    //KHAKI (HYPER)
+    { "7F7799" : "92995A", "594B87" : "636833" },
+    
+    //PURPLE (MIZUTSUNE <3)
+    { "7F7799" : "75427F", "594B87" : "563168" },
+    
+    //ABSOLUTE-GREY (ABYSSAL)
+    { "7F7799" : "322F3D", "594B87" : "201B2D" },
+    
+    //GRAY (POISONHEAD)
+    { "7F7799" : "BCB3CC", "594B87" : "807896" },
+    
+    //DEEP-BLUE (RAGING)
+    { "7F7799" : "112655", "594B87" : "0C1D43" },
+    
+    //ROUGE-PINK (MOLTEN)
+    { "7F7799" : "963155", "594B87" : "7D1C3E" },
+    
+    //BLACK (TARRED)
+    { "7F7799" : "0E0E22", "594B87" : "090918" },
+    
+    //BRIGHT-GREEN (RADIOACTIVE)
+    { "7F7799" : "36DB65", "594B87" : "0EC843" },
+    
+    //WHITE (BEATAPHONE?)
+    { "7F7799" : "F5E8E9", "594B87" : "E1CFCF" },
+    
+    //BLUE (FROSTBITE)
+    { "7F7799" : "2567B2", "594B87" : "13549E" },
+    
+    //CHARRED-ORANGE (SCORCHED)
+    { "7F7799" : "C03F35", "594B87" : "A42C23" },
+    
+    //FAINT-PURPLE (PURPLE)
+    { "7F7799" : "BC8BF8", "594B87" : "9F6CDE" },
+    
+    //BROWN-ORANGE (BUTTERED)
+    { "7F7799" : "B7602C", "594B87" : "994C1D" },
+    
+    //DIRTY-GREEN (SWAMP)
+    { "7F7799" : "89833B", "594B87" : "746C1E" }
   ]
 }
