@@ -3,11 +3,11 @@
     "charCreationTooltip" : {
     "title" : "Brachydios",
     "subTitle" : "O2",
-    "description" : "Slime powered Brute Wyverns from Capcom's Monster Hunter Franchise (No, it doesn't come with actual explosive slime unfortunately...)."
+    "description" : "Slime powered Brute Wyverns from Capcom's Monster Hunter Franchise (Does not include actual explosive slime, unfortunately...)."
   },
   "nameGen" : [ "/species/brachydiosmalenamegen.config:names", "/species/brachydiosfemalenamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/brachydioshurt_male1.ogg", "/sfx/humanoid/brachydioshurt_female1.ogg" ],
-  "charGenTextLabels" : [ "Body color", "", "Shirt", "Legwear", "Slime color", "", "Shirt colour", "Legwear colour", "Brachydios", "Personality" ],
+  "charGenTextLabels" : [ "Body color", "Special horn", "Shirt", "Legwear", "Slime color", "Underbelly", "Shirt colour", "Legwear colour", "Brachydios", "Personality" ],
   "skull" : "/humanoid/brachydios/dead.png",
   "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
   "defaultBlueprints" : {
@@ -86,12 +86,13 @@
   "altOptionAsUndyColor" : true,
   "headOptionAsHairColor" : true,
   "altOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
   "genders" : [
     {
        "name" : "male",
       "image" : "/interface/title/monmaleico.png",
       "characterImage" : "/interface/title/brachydiosmale.png",
-      "hair" : [ "male54" ],
+      "hair" : [ "male54", "male55" ],
       "shirt" : [ "avianadventurershirt", "aviancommonershirt", "avianfancyshirt", "avianworkershirt", "protectorateshirtchest", "protectoratevestchest", "invischest" ],
       "pants" : [ "avianadventurerpants", "aviancommonerlegs", "avianfancyskirt", "avianworkerpants", "invislegs" ],
       "facialHairGroup" : "",
@@ -112,6 +113,7 @@
       "facialMask" : [ ]
     }
   ],
+  // Main Body
   "bodyColor" : [
      
      //BLUE (DEFAULT BRACHYDIOS)
@@ -260,6 +262,7 @@
     
     //BROWN-ORANGE (BUTTERED)
     { "7F7799" : "B7602C", "594B87" : "994C1D" },
+    
     //DIRTY-GREEN (SWAMP)
     { "7F7799" : "89833B", "594B87" : "746C1E" }
   ]
