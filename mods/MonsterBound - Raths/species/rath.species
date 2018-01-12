@@ -1,0 +1,259 @@
+{
+  "kind" : "rath",
+	"charCreationTooltip" : {
+	"title" : "Rath",
+	"subTitle" : "O2",
+	"description" : "Welcome to Skittles' Test Mod."
+  },
+  "nameGen" : [ "/species/rathmalenamegen.config:names", "/species/rathfemalenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/rathhurt_male1.ogg", "/sfx/humanoid/rathhurt_female1.ogg" ],
+  "charGenTextLabels" : [ "Body colour", "Null", "Shirt", "Legwear", "Underbelly", "Scale colour", "Shirt colour", "Legwear colour", "RATH", "Personality" ],
+  "skull" : "/humanoid/rath/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+	
+  // Empty Hands
+      { "item" : "flagrath" },
+	    
+// Anvil
+      { "item" : "aviantier1head" },
+      { "item" : "aviantier1chest" },
+      { "item" : "aviantier1pants" },
+      { "item" : "aviantier2head" },
+      { "item" : "aviantier2chest" },
+      { "item" : "aviantier2pants" },
+      { "item" : "huntersironsword" },
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+// Anvil2
+      { "item" : "aviantier3head" },
+      { "item" : "aviantier3chest" },
+      { "item" : "aviantier3pants" },
+      { "item" : "aviantier4head" },
+      { "item" : "aviantier4chest" },
+      { "item" : "aviantier4pants" },
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+// Anvil3
+      { "item" : "aviantier5ahead" },
+      { "item" : "aviantier5achest" },
+      { "item" : "aviantier5apants" },
+      { "item" : "aviantier6ahead" },
+      { "item" : "aviantier6achest" },
+      { "item" : "aviantier6apants" },
+
+      { "item" : "aviantier5mhead" },
+      { "item" : "aviantier5mchest" },
+      { "item" : "aviantier5mpants" },
+      { "item" : "aviantier6mhead" },
+      { "item" : "aviantier6mchest" },
+      { "item" : "aviantier6mpants" },
+
+      { "item" : "aviantier5shead" },
+      { "item" : "aviantier5schest" },
+      { "item" : "aviantier5spants" },
+      { "item" : "aviantier6shead" },
+      { "item" : "aviantier6schest" },
+      { "item" : "aviantier6spants" },
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+	  { "item" : "lagiawildfire" },
+// Furniture Table 2
+      { "item" : "humanstoragelocker" },
+      { "item" : "rathshipdoor" },
+      { "item" : "rathshiphatch" },
+// Spinning Wheel
+      { "item" : "avianadventurershirt" },
+      { "item" : "avianadventurerpants" },
+      { "item" : "aviancommonershirt" },
+      { "item" : "aviancommonerlegs" },
+      { "item" : "avianfancyshirt" },
+      { "item" : "avianfancyskirt" },
+      { "item" : "avianworkershirt" },
+      { "item" : "avianworkerpants" }
+	  ]
+  },
+  
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "altOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
+  "genders" : [
+    {
+       "name" : "male",
+      "image" : "/interface/title/rathmaleico.png",
+      "characterImage" : "/interface/title/rathmale.png",
+      "hair" : [ "male54" ],
+      "shirt" : [ "avianadventurershirt", "aviancommonershirt", "avianfancyshirt", "avianworkershirt", "protectorateshirtchest", "protectoratevestchest" ],
+      "pants" : [ "avianadventurerpants", "aviancommonerlegs", "avianfancyskirt", "avianworkerpants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/rathfemico.png",
+      "characterImage" : "/interface/title/rathfemale.png",
+      "hair" : [ "male54" ],
+      "shirt" : [ "avianadventurershirt", "aviancommonershirt", "avianfancyshirt", "avianworkershirt", "protectorateshirtchest", "protectoratevestchest" ],
+      "pants" : [ "avianadventurerpants", "aviancommonerlegs", "avianfancyskirt", "avianworkerpants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+//Default
+{ "af412d" : "af412d", "8d3629" : "8d3629", "69281f" : "69281f", "3a0c08" : "3a0c08",
+"383b40" : "383b40", "26282c" : "26282c",
+"d1b682" : "d1b682",
+"b2c3d3" : "b2c3d3", "939bb4" : "939bb4",
+"c28174" : "c28174",
+"397dd2" : "397dd2", "6e192a" : "6e192a", 
+"e25847" : "e25847", "c52222" : "c52222" },
+
+//Rathian
+{ "af412d" : "90b80c", "8d3629" : "6e9001", "69281f" : "496400", "3a0c08" : "223e38",
+"383b40" : "553522", "26282c" : "382716",
+"d1b682" : "4e6d12",
+"b2c3d3" : "b2c3d3", "939bb4" : "939bb4",
+"c28174" : "905d2a",
+"397dd2" : "f7d610", "6e192a" : "1346ac",
+"e25847" : "e25847", "c52222" : "c52222" },
+
+//Azure Los
+{ "af412d" : "40cde5", "8d3629" : "11b4d6", "69281f" : "2492c3", "3a0c08" : "075d91",
+"383b40" : "1f435f", "26282c" : "0c304c",
+"d1b682" : "b7c76b",
+"b2c3d3" : "b2c3d3", "939bb4" : "939bb4",
+"c28174" : "0970bc",
+"397dd2" : "fbeb73", "6e192a" : "822f3f",
+"e25847" : "e25847", "c52222" : "c52222" },
+
+//Pink Rathian
+{ "af412d" : "ec6771", "8d3629" : "cd545d", "69281f" : "b0454c", "3a0c08" : "8e3347",
+"383b40" : "5f3027", "26282c" : "442019",
+"d1b682" : "ab574a",
+"b2c3d3" : "b2c3d3", "939bb4" : "939bb4",
+"c28174" : "760a39",
+"397dd2" : "6ba2dc", "6e192a" : "1b54b6",
+"e25847" : "e25847", "c52222" : "c52222" },
+
+//Silver Los
+{ "af412d" : "a8a6a3", "8d3629" : "8b8781", "69281f" : "65635e", "3a0c08" : "2b2a28",
+"383b40" : "383b40", "26282c" : "26282c",
+"d1b682" : "c5af8b",
+"b2c3d3" : "b2c3d3", "939bb4" : "939bb4",
+"c28174" : "561d1e",
+"397dd2" : "ab87bf", "6e192a" : "974423",
+"e25847" : "e25847", "c52222" : "c52222" },
+
+//Gold Rathian
+{ "af412d" : "f8b311", "8d3629" : "d3940d", "69281f" : "b77b08", "3a0c08" : "7f551a",
+"383b40" : "6f2d0e", "26282c" : "4b2009",
+"d1b682" : "bd793b",
+"b2c3d3" : "b2c3d3", "939bb4" : "939bb4",
+"c28174" : "741106",
+"397dd2" : "d673cd", "6e192a" : "b20000",
+"e25847" : "e25847", "c52222" : "c52222" },
+
+//Zerureusu
+{ "af412d" : "d2d2d9", "8d3629" : "b0b0bb", "69281f" : "878796", "3a0c08" : "424253",
+"383b40" : "383b40", "26282c" : "26282c",
+"d1b682" : "e6e6eb",
+"b2c3d3" : "979ea4", "939bb4" : "7e818b",
+"c28174" : "5f77e2",
+"397dd2" : "6e192a", "6e192a" : "c81e08",
+"e25847" : "e25847", "c52222" : "c52222" },
+
+//Unknown
+{ "af412d" : "373237", "8d3629" : "2a252a", "69281f" : "1e1a1e", "3a0c08" : "141114",
+"383b40" : "810e02", "26282c" : "4a0400",
+"d1b682" : "4d4541",
+"b2c3d3" : "b2c3d3", "939bb4" : "939bb4",
+"c28174" : "373237",
+"397dd2" : "9a342f", "6e192a" : "9a733c",
+"e25847" : "e25847", "c52222" : "c52222" },
+
+//Blighted
+{ "af412d" : "403048", "8d3629" : "332538", "69281f" : "271c2d", "3a0c08" : "16101b",
+"383b40" : "383b40", "26282c" : "26282c",
+"d1b682" : "59366e",
+"b2c3d3" : "979ea4", "939bb4" : "7e818b",
+"c28174" : "dc2a1e",
+"397dd2" : "5163e1", "6e192a" : "7288d8",
+"e25847" : "bd3cec", "c52222" : "8e0bdb" },
+
+//Astalos
+{ "af412d" : "45392e", "8d3629" : "352c24", "69281f" : "2d251e", "3a0c08" : "201a15",
+"383b40" : "383b40", "26282c" : "26282c",
+"d1b682" : "bbbb77",
+"b2c3d3" : "979ea4", "939bb4" : "7e818b",
+"c28174" : "26282c",
+"397dd2" : "9b2121", "6e192a" : "f63232",
+"e25847" : "e25847", "c52222" : "c52222" }
+  ],
+  "undyColor" : [
+{ "ddc79e" : "ddc79e", "d0b380" : "d0b380", "bb9d6c" : "bb9d6c", "9e7d59" : "9e7d59", "815f44" : "815f44",
+"c37f75" : "c37f75", "946059" : "946059", "75453e" : "75453e" },
+
+{ "ddc79e" : "e1cd92", "d0b380" : "d7bd70", "bb9d6c" : "c4aa5c", "9e7d59" : "ab8c49", "815f44" : "906f35", 
+"c37f75" : "c37f75", "946059" : "946059", "75453e" : "75453e" },
+
+{ "ddc79e" : "d6cda9", "d0b380" : "c9bb8e", "bb9d6c" : "b5a87a", "9e7d59" : "9b8a66", "815f44" : "826f51",
+"c37f75" : "3e4c7d", "946059" : "36426d", "75453e" : "313c63" },
+
+{ "ddc79e" : "f9c0a3", "d0b380" : "ebad8c", "bb9d6c" : "d89a78", "9e7d59" : "bd7f5f", "815f44" : "a26346", 
+"c37f75" : "d07874", "946059" : "a55856", "75453e" : "873d3b" },
+
+{ "ddc79e" : "e5d4b4", "d0b380" : "d1ba94", "bb9d6c" : "b8a27d", "9e7d59" : "987f65", "815f44" : "795f4d",
+"c37f75" : "6b1d1f", "946059" : "4b1416", "75453e" : "370d0d" },
+
+{ "ddc79e" : "eacd7e", "d0b380" : "e3bc54", "bb9d6c" : "d0a941", "9e7d59" : "b38c33", "815f44" : "957025", 
+"c37f75" : "af4421", "946059" : "8b361b", "75453e" : "722c16" },
+
+{ "ddc79e" : "d3d3d8", "d0b380" : "b5b5be", "bb9d6c" : "9898a3", "9e7d59" : "787885", "815f44" : "535363",
+"c37f75" : "87a3d2", "946059" : "627ead", "75453e" : "456190" },
+
+{ "ddc79e" : "5f5753", "d0b380" : "534a46", "bb9d6c" : "49413d", "9e7d59" : "3e3634", "815f44" : "342b2a", 
+"c37f75" : "4e373a", "946059" : "3a292e", "75453e" : "2f1e22" },
+
+{ "ddc79e" : "755671", "d0b380" : "644160", "bb9d6c" : "50314c", "9e7d59" : "382135", "815f44" : "231421",
+"c37f75" : "ff3123", "946059" : "bc1000", "75453e" : "740c00" },
+
+{ "ddc79e" : "8c9a44", "d0b380" : "728126", "bb9d6c" : "5b6a1b", "9e7d59" : "465800", "815f44" : "3f4813",
+"c37f75" : "94ed57", "946059" : "62d824", "75453e" : "55bd1e" }
+  ],
+  "hairColor" : [
+    { "3d4b7a" : "3d4b7a", "2e385b" : "2e385b", "262f51" : "262f51", "091d18" : "090d1c" },
+	
+    { "3d4b7a" : "75443b", "2e385b" : "553522", "262f51" : "382716", "091d18" : "091d18" },
+	
+	{ "3d4b7a" : "3c607c", "2e385b" : "2d475d", "262f51" : "253e53", "091d18" : "09131d" },
+	
+	{ "3d4b7a" : "7c403f", "2e385b" : "5f3027", "262f51" : "442019", "091d18" : "181616" },
+	
+	{ "3d4b7a" : "4c4768", "2e385b" : "3a3452", "262f51" : "312b49", "091d18" : "100820" },
+	
+	{ "3d4b7a" : "903c1d", "2e385b" : "6f2d0e", "262f51" : "4b2009", "091d18" : "1f150a" },
+	
+	{ "3d4b7a" : "7ba7f2", "2e385b" : "5068e0", "262f51" : "3a4db3", "091d18" : "253375" },
+	
+	{ "3d4b7a" : "ae2a0d", "2e385b" : "810e02", "262f51" : "4a0400", "091d18" : "1e0200" },
+	
+	{ "3d4b7a" : "625861", "2e385b" : "4a4149", "262f51" : "413841", "091d18" : "090d1c" },
+	
+	{ "3d4b7a" : "231a12", "2e385b" : "18110c", "262f51" : "120c08", "091d18" : "0a0502" }
+  ]
+}

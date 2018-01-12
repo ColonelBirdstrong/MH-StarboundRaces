@@ -1,0 +1,10 @@
+{
+  "author" : "Colonel Birdstrong",
+  "description" : "Basic Template to create your own race.",
+  "friendlyName" : "Skittles Basic Race Template",
+  "link" : "",
+  "name" : "Rath Race",
+  "path" : ".",
+  "steamContentId" : "",
+  "version" : "0.5"
+}
