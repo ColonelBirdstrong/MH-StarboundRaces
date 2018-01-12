@@ -1,7 +1,7 @@
 {
   "kind" : "zinogre",
 	"charCreationTooltip" : {
-	"title" : "zinogre",
+	"title" : "Zinogre",
 	"subTitle" : "O2",
 	"description" : "Electric wolf-dragons from Capcom's Monster Hunter franchise."
   },
@@ -109,139 +109,129 @@
       "facialMask" : [ ]
     }
   ],
+  
   "bodyColor" : [
-	// BLACK (STYGIAN)
-    { "93FFFF" : "FF5E5E", "00FFFF" : "FF1C1C", // eyes
-	"DBCDAB" : "B5B5B5", "BCB093" : "999999", "A0967D" : "7F7F7F", // underbelly
-	"01B7A8" : "4D4A51", "01A395" : "423F44", "01766C" : "2D2933"}, // body
 	
-	// GREY
-	{ "93FFFF" : "84D4FF", "00FFFF" : "42BCFF", // eyes
-	"DBCDAB" : "61617F", "BCB093" : "52526B", "A0967D" : "4A4A60", // underbelly
-	"01B7A8" : "858891", "01A395" : "75787F", "01766C" : "4B4D51"}, // body
+	// BLACK
+    { "93FFFF" : "FFC000", "00FFFF" : "FFA200", // eyes
+	"33DCFB" : "7A94F5", "22C7E5" : "637FE4", // eye streaks (when angery)
+	"DBCDAB" : "4256A1", "BCB093" : "32458B", "A0967D" : "273877", // underbelly
+	"01B7A8" : "283B4B", "01A395" : "1A2834", "01766C" : "121F29"}, // body
+	
+	// GREY (STYGIAN)
+	{ "93FFFF" : "FA1B40", "00FFFF" : "D40023", // eyes
+	"33DCFB" : "FF676D", "22C7E5" : "F9414A", // eye streaks (when angery)
+	"DBCDAB" : "807F9A", "BCB093" : "63627C", "A0967D" : "57566E", // underbelly
+	"01B7A8" : "494E6C", "01A395" : "3B3F59", "01766C" : "323549"}, // body
 	
     // WHITE (IMMORTAL)
-	{ "93FFFF" : "F696FF", "00FFFF" : "F47CFF", // eyes
-	"DBCDAB" : "DBD9C7", "BCB093" : "C4C2B2", "A0967D" : "A8A799", // underbelly
-	"01B7A8" : "D5EAEA", "01A395" : "C0D3D3", "01766C" : "96A5A5"}, // body
+	{ "93FFFF" : "00E4FF", "00FFFF" : "00D2FF", // eyes
+	"33DCFB" : "A2FFA9", "22C7E5" : "77FE80", // eye streaks (when angery)
+	"DBCDAB" : "93D4F6", "BCB093" : "7DC6EC", "A0967D" : "5AB7E7", // underbelly
+	"01B7A8" : "E6F2FC", "01A395" : "D3E1ED", "01766C" : "C1D1DE"}, // body
 	
-	// RED (GOUKAMI)
+	// RED
+	{ "93FFFF" : "FF2500", "00FFFF" : "D61900", // eyes
+	"33DCFB" : "FF8468", "22C7E5" : "FF6643", // eye streaks (when angery)
+	"DBCDAB" : "832020", "BCB093" : "6B1616", "A0967D" : "570F0F", // underbelly
+	"01B7A8" : "CE3F06", "01A395" : "B62F05", "01766C" : "A32002"}, // body
+	
+	// RED 2 (GOUKAMI)
 	{ "93FFFF" : "FFD263", "00FFFF" : "FFBC14", // eyes
+	"33DCFB" : "A2FFA9", "22C7E5" : "77FE80", // eye streaks (when angery)
 	"DBCDAB" : "7DD8D8", "BCB093" : "69B5B5", "A0967D" : "4F8989", // underbelly
 	"01B7A8" : "D80202", "01A395" : "BC0101", "01766C" : "8E0101"}, // body
 	
 	// ORANGE
-	{ "93FFFF" : "96FFE8", "00FFFF" : "00FFC7", // eyes
-	"DBCDAB" : "D8C597", "BCB093" : "AFA07B", "A0967D" : "9E8F6E", // underbelly
-	"01B7A8" : "F2AA46", "01A395" : "E09021", "01766C" : "B5741B"}, // body
-	
-	// YELLOW
-	{ "93FFFF" : "8EFF96", "00FFFF" : "2BFF39", // eyes
-	"DBCDAB" : "AD9A69", "BCB093" : "918158", "A0967D" : "776A49", // underbelly
-	"01B7A8" : "FFDD49", "01A395" : "EACB4F", "01766C" : "A88A10"}, // body
+	{ "93FFFF" : "A0E56D", "00FFFF" : "7FD044", // eyes
+	"33DCFB" : "FFEB8E", "22C7E5" : "FADC4D", // eye streaks (when angery)
+	"DBCDAB" : "E0A456", "BCB093" : "D2903B", "A0967D" : "C47E24", // underbelly
+	"01B7A8" : "FFA14E", "01A395" : "F57D35", "01766C" : "EB5E20"}, // body
 	
 	// GREEN (THUNDERLORD)
-	{ "93FFFF" : "FFA163", "00FFFF" : "FF8432", // eyes
-	"DBCDAB" : "E4C28F", "BCB093" : "C6A87D", "A0967D" : "AD926D", // underbelly
-	"01B7A8" : "83A52C", "01A395" : "718E26", "01766C" : "546B1C"}, // body
+	{ "93FFFF" : "F7A647", "00FFFF" : "F38535", // eyes
+	"33DCFB" : "FFEA74", "22C7E5" : "FFE23D", // eye streaks (when angery)
+	"DBCDAB" : "D9B854", "BCB093" : "CCA23E", "A0967D" : "C49334", // underbelly
+	"01B7A8" : "91BE42", "01A395" : "71AA3F", "01766C" : "5F992B"}, // body
 	
 	// CYAN (NORMAL)
 	{ "93FFFF" : "93FFFF", "00FFFF" : "00FFFF", // eyes
+	"33DCFB" : "33DCFB", "22C7E5" : "22C7E5", // eye streaks (when angery)
 	"DBCDAB" : "DBCDAB", "BCB093" : "BCB093", "A0967D" : "A0967D", // underbelly
 	"01B7A8" : "01B7A8", "01A395" : "01A395", "01766C" : "01766C"}, // body
 	
 	// BLUE
-	{ "93FFFF" : "FFFF93", "00FFFF" : "FFFF00", // eyes
-	"DBCDAB" : "D6CF82", "BCB093" : "B5AF6E", "A0967D" : "96915B", // underbelly
-	"01B7A8" : "5C76B2", "01A395" : "4263AF", "01766C" : "2E457A"}, // body
+	{ "93FFFF" : "FFFF71", "00FFFF" : "EFEF6B", // eyes
+	"33DCFB" : "DEECFF", "22C7E5" : "D1E5FE", // eye streaks (when angery)
+	"DBCDAB" : "494E68", "BCB093" : "3A3F54", "A0967D" : "2A2D3D", // underbelly
+	"01B7A8" : "5588D4", "01A395" : "3C71BC", "01766C" : "215091"}, // body
 	
 	// PURPLE
-	{ "93FFFF" : "FF9393", "00FFFF" : "FF7575", // eyes
-	"DBCDAB" : "A19277", "BCB093" : "827560", "A0967D" : "726754", // underbelly
-	"01B7A8" : "95679F", "01A395" : "855C8E", "01766C" : "694870"}, // body
-	
-	// PINK
-	{ "93FFFF" : "A5FF93", "00FFFF" : "28F200", // eyes
-	"DBCDAB" : "DBCDAB", "BCB093" : "BCB093", "A0967D" : "A0967D", // underbelly
-	"01B7A8" : "FFA7EA", "01A395" : "E295D0", "01766C" : "A56D98"}, // body
-	
-	// BROWN
-	{ "93FFFF" : "EA7575", "00FFFF" : "EA4B4B", // eyes
-	"DBCDAB" : "F2E6CB", "BCB093" : "D3C9B1", "A0967D" : "C4BAA4", // underbelly
-	"01B7A8" : "C69657", "01A395" : "AD834C", "01766C" : "87663B"} // body
+	{ "93FFFF" : "FF6464", "00FFFF" : "EF4848", // eyes
+	"33DCFB" : "FF9AE6", "22C7E5" : "F878D9", // eye streaks (when angery)
+	"DBCDAB" : "F2B2F2", "BCB093" : "E097E0", "A0967D" : "D187D2", // underbelly
+	"01B7A8" : "B495C8", "01A395" : "A17DB7", "01766C" : "906DA6"} // body
   ],
+  
+  // horns / jaw / scales
   "undyColor" : [
+	
 	// BLACK
-	{ "EFAC02" : "636363", "CF9501" : "5B5B5B", "A87901" : "494949", "876101" : "3D3D3D" },
+	{ "EFAC02" : "4E5377", "CF9501" : "3F4366", "A87901" : "313556", "876101" : "292C4A" },
 	
 	// GREY (STYGIAN)
-	{ "EFAC02" : "B5B5B5", "CF9501" : "999999", "A87901" : "7F7F7F", "876101" : "5C5E63" },
+	{ "EFAC02" : "B2ADC1", "CF9501" : "928CA7", "A87901" : "7A748F", "876101" : "666079" },
 	
 	// WHITE
-	{ "EFAC02" : "EAE6D5", "CF9501" : "D3D2CB", "A87901" : "AFAEA8", "876101" : "999792" },
+	{ "EFAC02" : "E2E0DC", "CF9501" : "CCCAC5", "A87901" : "B5B3AF", "876101" : "9E9C99" },
 	
 	// RED
-	{ "EFAC02" : "A52E00", "CF9501" : "992800", "A87901" : "892400", "876101" : "681B00" },
+	{ "EFAC02" : "640000", "CF9501" : "520101", "A87901" : "400000", "876101" : "320000" },
 	
-	// ORANGE
-	{ "EFAC02" : "EF9802", "CF9501" : "CE8302", "A87901" : "B77401", "876101" : "895701" },
+	// ORANGE (THUNDERLORD)
+	{ "EFAC02" : "DF8F12", "CF9501" : "CC7607", "A87901" : "B76701", "876101" : "985200" },
 	
 	// YELLOW (NORMAL)
 	{ "EFAC02" : "EFAC02", "CF9501" : "CF9501", "A87901" : "A87901", "876101" : "876101" },
 	
-	// GREEN
-	{ "EFAC02" : "76C11B", "CF9501" : "75AF2D", "A87901" : "578E13", "876101" : "497710" },
-	
 	// CYAN (IMMORTAL)
-	{ "EFAC02" : "41C1C6", "CF9501" : "25A6A8", "A87901" : "1F8F91", "876101" : "145A5B" },
-	
-	// BLUE
-	{ "EFAC02" : "6682C4", "CF9501" : "576FA8", "A87901" : "4B6091", "876101" : "435682" },
+	{ "EFAC02" : "3DA7DE", "CF9501" : "2290CA", "A87901" : "167CB1", "876101" : "176AAA" },
 	
 	// PURPLE
-	{ "EFAC02" : "B893C1", "CF9501" : "A583AD", "A87901" : "8F7296", "876101" : "745D7A" },
-	
-	// PINK
-	{ "EFAC02" : "F78FDF", "CF9501" : "D37ABE", "A87901" : "AD649C", "876101" : "894F7C" },
-	
-	// BROWN
-	{ "EFAC02" : "DBB37F", "CF9501" : "C6A273", "A87901" : "A88863", "876101" : "876C4E" }
+	{ "EFAC02" : "9692D3", "CF9501" : "7D78C1", "A87901" : "6C67B3", "876101" : "605BA5" }
   ],
+  
+  // fur
   "hairColor" : [
-	// BLACK
-	{ "D5E2E2" : "747A7A", "BCC6C6" : "5E6363" },
 	
-	// GREY
-	{ "D5E2E2" : "8B9191", "BCC6C6" : "7A7F7F" },
+	// BLACK
+	{ "C7E2E2" : "686868", "AFC6C6" : "3F3F3F" },
 	
 	// WHITE (NORMAL)
-	{ "D5E2E2" : "D5E2E2", "BCC6C6" : "BCC6C6" },
+	{ "C7E2E2" : "C7E2E2", "AFC6C6" : "AFC6C6" },
 	
 	// RED
-	{ "D5E2E2" : "E09696", "BCC6C6" : "E06767" },
+	{ "C7E2E2" : "EFA49E", "AFC6C6" : "DB8C85" },
 	
-	// ORANGE
-	{ "D5E2E2" : "FFE4C1", "BCC6C6" : "FFCB87" },
+	// ORANGE (STYGIAN)
+	{ "C7E2E2" : "FFD09D", "AFC6C6" : "EAB276" },
 	
-	// YELLOW
-	{ "D5E2E2" : "FFF9C1", "BCC6C6" : "E0DA96" },
+	// YELLOW (THUNDERLORD)
+	{ "C7E2E2" : "F6C828", "AFC6C6" : "F0B106" },
 	
-	// GREEN
-	{ "D5E2E2" : "9EE098", "BCC6C6" : "78D370" },
+	// GREEN (IMMORTAL)
+	{ "C7E2E2" : "35DE85", "AFC6C6" : "20CC69" },
 	
 	// CYAN
-	{ "D5E2E2" : "9DEAEA", "BCC6C6" : "67D3D3" },
+	{ "C7E2E2" : "A0FAE4", "AFC6C6" : "74E2BF" },
 	
 	// BLUE
-	{ "D5E2E2" : "9DBFE8", "BCC6C6" : "6DA4E8" },
+	{ "C7E2E2" : "AFC5FF", "AFC6C6" : "8EACFF" },
 	
-	// PURPLE
-	{ "D5E2E2" : "CFB5E5", "BCC6C6" : "AC8BC6" },
+	// DARK PURPLE
+	{ "C7E2E2" : "6C5FB8", "AFC6C6" : "54499A" },
 	
-	// PINK
-	{ "D5E2E2" : "E2B5C9", "BCC6C6" : "D39AB4" },
-	
-	// BROWN
-	{ "D5E2E2" : "BC9E7C", "BCC6C6" : "AF8C66" }
+	// LIGHT PURPLE
+	{ "C7E2E2" : "C8A4F2", "AFC6C6" : "A385C6" }
   ]
 }

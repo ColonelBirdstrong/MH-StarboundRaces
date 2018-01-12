@@ -1,0 +1,11 @@
+{
+  "author" : "Zinogre",
+  "description" : "SCREEEEEEEEEEEEEEEEEE",
+  "friendlyName" : "MonsterBound - Diablos Race",
+  "link" : "",
+  "name" : "MonsterBound - Diablos Race",
+  "path" : ".",
+  "includes" : ["MonsterBound - Base"],
+  "steamContentId" : "",
+  "version" : "Does it really matter .-."
+}
