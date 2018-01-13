@@ -1,0 +1,28 @@
+[
+    {
+        "op": "add",
+        "path": "/greeting/nargacuga",
+        "value": {
+            "default": [
+            	"Nice to meet you!",
+                "You aren't a hunter, are you?",
+                "Hello there.",
+                "Welcome!",
+                "rrerr!"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/converse/nargacuga",
+        "value": {
+            "default": [
+            	"Check out what I can do with my eyes!",
+                "Hey, wanna see who's faster?",
+                "People call me cute, but I prefer fearsome.",
+                "Wanna touch my fur?",
+                "Mind the spikes!"
+            ]
+        }
+    }
+]
