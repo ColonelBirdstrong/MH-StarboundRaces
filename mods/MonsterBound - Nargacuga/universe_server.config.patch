@@ -2,15 +2,15 @@
 	{ "op" : "add",
 		"path" : "/speciesShips/nargacuga",
 		"value" : [
-		    "/ships/nargacuga/nargacugat0.structure",
-			"/ships/nargacuga/nargacugat1.structure",
-			"/ships/nargacuga/nargacugat2.structure",
-			"/ships/nargacuga/nargacugat3.structure",
-			"/ships/nargacuga/nargacugat4.structure",
-			"/ships/nargacuga/nargacugat5.structure",
-			"/ships/nargacuga/nargacugat6.structure",
-			"/ships/nargacuga/nargacugat7.structure",
-			"/ships/nargacuga/nargacugat8.structure"
+		    "/ships/monster/monstert0.structure",
+			"/ships/monster/monstert1.structure",
+			"/ships/monster/monstert2.structure",
+			"/ships/monster/monstert3.structure",
+			"/ships/monster/monstert4.structure",
+			"/ships/monster/monstert5.structure",
+			"/ships/monster/monstert6.structure",
+			"/ships/monster/monstert7.structure",
+			"/ships/monster/monstert8.structure"
 		]
 	}
 ]

@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/diablos",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/diablos",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]

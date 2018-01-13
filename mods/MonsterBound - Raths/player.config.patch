@@ -1,0 +1,3 @@
+[
+{ "op" : "add", "path" : "/defaultCodexes/rath", "value" : [ "protectorate1", "protectorate2", "rathdiary" ] }
+]

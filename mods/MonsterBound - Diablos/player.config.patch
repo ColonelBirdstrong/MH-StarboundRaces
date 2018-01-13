@@ -1,0 +1,3 @@
+[
+{ "op" : "add", "path" : "/defaultCodexes/diablos", "value" : [ "protectorate1", "protectorate2" ] }
+]
