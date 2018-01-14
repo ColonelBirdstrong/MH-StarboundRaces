@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "mh_hiddengeminit5", "count" : 2 },
-    { "item" : "monsterclaw", "count" : 6 },
+    { "item" : "sharpenedclaw", "count" : 6 },
 	{ "item" : "solariumstar", "count" : 6 }
   ],
   "output" : { "item" : "mh_hiddengeminit6", "count" : 2 },

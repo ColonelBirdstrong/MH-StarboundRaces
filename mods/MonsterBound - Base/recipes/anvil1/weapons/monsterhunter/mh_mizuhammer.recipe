@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "bone", "count" : 3 },
-    { "item" : "monsterclaw", "count" : 1 }
+    { "item" : "sharpenedclaw", "count" : 1 }
   ],
   "output" : { "item" : "mh_mizuhammer", "count" : 1 },
   "groups" : [ "craftinganvil", "weapons", "all" ]
