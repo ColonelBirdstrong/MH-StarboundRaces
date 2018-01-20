@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "mh_mizuhammert4", "count" : 1 },
-    { "item" : "monsterclaw", "count" : 4 },
+    { "item" : "sharpenedclaw", "count" : 4 },
 	{ "item" : "refinedferozium", "count" : 5 }
   ],
   "output" : { "item" : "mh_mizuhammert5", "count" : 1 },

@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "mh_mizutsunels5", "count" : 1 },
-    { "item" : "monsterclaw", "count" : 6 },
+    { "item" : "sharpenedclaw", "count" : 6 },
 	{ "item" : "solariumstar", "count" : 6 }
   ],
   "output" : { "item" : "mh_mizutsunelst6", "count" : 1 },
