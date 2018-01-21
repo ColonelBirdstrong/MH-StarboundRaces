@@ -1,0 +1,202 @@
+{
+  "kind" : "valfalk",
+	"charCreationTooltip" : {
+	"title" : "Valfalk",
+	"subTitle" : "O2",
+	"description" : "Be the jetdragon you've always wanted to be. Nyoooooooom!"
+  },
+  "nameGen" : [ "/species/valfalkmalenamegen.config:names", "/species/valfalkfemalenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/valfalkhurt_male1.ogg", "/sfx/humanoid/valfalkhurt_female1.ogg" ],
+  "charGenTextLabels" : [ "Body colour", "Energy output", "Shirt", "Legwear", "Belly colour", "Energy colour", "Shirt colour", "Legwear colour", "VALFALK", "Personality" ],
+  "skull" : "/humanoid/valfalk/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+	
+// Empty Hands
+      { "item" : "flagmonster" },
+	    
+// Anvil
+      { "item" : "aviantier1head" },
+      { "item" : "aviantier1chest" },
+      { "item" : "aviantier1pants" },
+      { "item" : "aviantier2head" },
+      { "item" : "aviantier2chest" },
+      { "item" : "aviantier2pants" },
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+// Anvil2
+      { "item" : "aviantier3head" },
+      { "item" : "aviantier3chest" },
+      { "item" : "aviantier3pants" },
+      { "item" : "aviantier4head" },
+      { "item" : "aviantier4chest" },
+      { "item" : "aviantier4pants" },
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+// Anvil3
+      { "item" : "aviantier5ahead" },
+      { "item" : "aviantier5achest" },
+      { "item" : "aviantier5apants" },
+      { "item" : "aviantier6ahead" },
+      { "item" : "aviantier6achest" },
+      { "item" : "aviantier6apants" },
+      { "item" : "aviantier5mhead" },
+      { "item" : "aviantier5mchest" },
+      { "item" : "aviantier5mpants" },
+      { "item" : "aviantier6mhead" },
+      { "item" : "aviantier6mchest" },
+      { "item" : "aviantier6mpants" },
+      { "item" : "aviantier5shead" },
+      { "item" : "aviantier5schest" },
+      { "item" : "aviantier5spants" },
+      { "item" : "aviantier6shead" },
+      { "item" : "aviantier6schest" },
+      { "item" : "aviantier6spants" },
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+// Furniture Table 2
+      { "item" : "humanstoragelocker" },
+      { "item" : "monstershipdoor" },
+      { "item" : "monstershiphatch" },
+// Spinning Wheel
+      { "item" : "avianadventurershirt" },
+      { "item" : "avianadventurerpants" },
+      { "item" : "aviancommonershirt" },
+      { "item" : "aviancommonerlegs" },
+      { "item" : "avianfancyshirt" },
+      { "item" : "avianfancyskirt" },
+      { "item" : "avianworkershirt" },
+      { "item" : "avianworkerpants" }
+	  ]
+  },
+  
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "altOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
+  "genders" : [
+    {
+       "name" : "male",
+      "image" : "/interface/title/valfalkmaleico.png",
+      "characterImage" : "/interface/title/valfalkmale.png",
+      "hair" : [ "none", "hair1", "hair2", "hair3" ],
+      "shirt" : [ "avianadventurershirt", "aviancommonershirt", "avianfancyshirt", "avianworkershirt", "protectorateshirtchest", "protectoratevestchest", "invischest" ],
+      "pants" : [ "avianadventurerpants", "aviancommonerlegs", "avianfancyskirt", "avianworkerpants", "invislegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/valfalkfemico.png",
+      "characterImage" : "/interface/title/valfalkfemale.png",
+      "hair" : [ "none", "hair1", "hair2", "hair3" ],
+      "shirt" : [ "avianadventurershirt", "aviancommonershirt", "avianfancyshirt", "avianworkershirt", "protectorateshirtchest", "protectoratevestchest", "invischest" ],
+      "pants" : [ "avianadventurerpants", "aviancommonerlegs", "avianfancyskirt", "avianworkerpants", "invislegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+//Default
+	{ "ccccd4" : "ccccd4", "9da8ba" : "9da8ba", "737f95" : "737f95", "616173" : "616173",
+	"008cd9" : "008cd9", "0184cb" : "0184cb", "d33a3a" : "d33a3a", "cb3838" : "cb3838",
+	"1b3671" : "1b3671", "0d2352" : "0d2352" },
+//Garuba
+	{ "ccccd4" : "f9cf4d", "9da8ba" : "d3a927", "737f95" : "a98001", "616173" : "856501",
+	"008cd9" : "434343", "0184cb" : "404040", "d33a3a" : "6ab360", "cb3838" : "64a85b",
+	"1b3671" : "9dc6d9", "0d2352" : "81afc4" },
+//Rusted Kushala
+	{ "ccccd4" : "55453c", "9da8ba" : "40382f", "737f95" : "2f2727", "616173" : "222222",
+	"008cd9" : "2e2e2e", "0184cb" : "262626", "d33a3a" : "1896c4", "cb3838" : "0d74a3",
+	"1b3671" : "41413b", "0d2352" : "373732" },
+//Kushala
+	{ "ccccd4" : "645c5a", "9da8ba" : "4f4744", "737f95" : "443935", "616173" : "372a25",
+	"008cd9" : "50e0ff", "0184cb" : "34d7fa", "d33a3a" : "009abb", "cb3838" : "007196",
+	"1b3671" : "3d312c", "0d2352" : "2c211d" },
+//Alatreon
+	{ "ccccd4" : "3d363d", "9da8ba" : "2e262c", "737f95" : "251d23", "616173" : "1b1218",
+	"008cd9" : "822838", "0184cb" : "681524", "d33a3a" : "384921", "cb3838" : "233111",
+	"1b3671" : "5b4c5d", "0d2352" : "433445" },
+//Astalos
+	{ "ccccd4" : "3a3027", "9da8ba" : "2d251e", "737f95" : "261f19", "616173" : "1b1612",
+	"008cd9" : "9b2121", "0184cb" : "7a1a1a", "d33a3a" : "f63232", "cb3838" : "bf1a1a",
+	"1b3671" : "bbbb77", "0d2352" : "90905d" },
+//Tar
+	{ "ccccd4" : "302a2a", "9da8ba" : "231e1d", "737f95" : "1d1918", "616173" : "161413",
+	"008cd9" : "665ead", "0184cb" : "4d4496", "d33a3a" : "4c2960", "cb3838" : "371e45",
+	"1b3671" : "213037", "0d2352" : "19262b" },
+//Gore
+	{ "ccccd4" : "211b28", "9da8ba" : "171422", "737f95" : "0f0d18", "616173" : "0c0913",
+	"008cd9" : "3c3242", "0184cb" : "39303f", "d33a3a" : "f18dff", "cb3838" : "dc71ff",
+	"1b3671" : "4c1b0f", "0d2352" : "3e0c01" },
+//Nargacuga
+	{ "ccccd4" : "323d57", "9da8ba" : "222d45", "737f95" : "0e1c33", "616173" : "091221",
+	"008cd9" : "fcb702", "0184cb" : "f79d02", "d33a3a" : "2d1e09", "cb3838" : "261908",
+	"1b3671" : "2d2f33", "0d2352" : "1f2023" },
+//Fire
+	{ "ccccd4" : "902629", "9da8ba" : "771c1f", "737f95" : "650d12", "616173" : "51020a",
+	"008cd9" : "f8b341", "0184cb" : "f3a126", "d33a3a" : "f76d2a", "cb3838" : "e84619",
+	"1b3671" : "e38324", "0d2352" : "c76318" },
+//Gemstone
+	{ "ccccd4" : "e0f7f7", "9da8ba" : "b8dbe6", "737f95" : "9dc4d4", "616173" : "85a5b8",
+	"008cd9" : "fbaecf", "0184cb" : "ef8eb7", "d33a3a" : "cf3a4e", "cb3838" : "ba263b",
+	"1b3671" : "bec0f3", "0d2352" : "9496d5" },
+//Radioactive
+	{ "ccccd4" : "98e27d", "9da8ba" : "6bc96b", "737f95" : "53b354", "616173" : "3c923c",
+	"008cd9" : "f88b45", "0184cb" : "f47629", "d33a3a" : "f44228", "cb3838" : "de2f1b",
+	"1b3671" : "b8eb4e", "0d2352" : "72d12a" },
+//Teostra
+	{ "ccccd4" : "bb2a23", "9da8ba" : "8d182a", "737f95" : "77143a", "616173" : "6a203b",
+	"008cd9" : "2e2e2e", "0184cb" : "262626", "d33a3a" : "008cd1", "cb3838" : "005da0",
+	"1b3671" : "684e6b", "0d2352" : "4a394d" },
+//Chameleos
+	{ "ccccd4" : "95679f", "9da8ba" : "794784", "737f95" : "592d62", "616173" : "46234d",
+	"008cd9" : "dca8e7", "0184cb" : "bc81c9", "d33a3a" : "bca760", "cb3838" : "978646",
+	"1b3671" : "433645", "0d2352" : "372b39" }
+  ],
+  "undyColor" : [
+    { "676f83" : "676f83", "3d3d51" : "3d3d51", "24232f" : "24232f" },
+	{ "676f83" : "896a0c", "3d3d51" : "4e3c07", "24232f" : "2e2405" },
+	{ "676f83" : "633c23", "3d3d51" : "4b2711", "24232f" : "3a1909" },
+	{ "676f83" : "9c8279", "3d3d51" : "7d5e53", "24232f" : "664a3f" },
+	{ "676f83" : "79787e", "3d3d51" : "55545a", "24232f" : "3f3e43" },
+	{ "676f83" : "728126", "3d3d51" : "5b6a1b", "24232f" : "3f4813" },
+	{ "676f83" : "21222e", "3d3d51" : "191b24", "24232f" : "13131b" },
+	{ "676f83" : "606e7d", "3d3d51" : "414c57", "24232f" : "2c343c" },
+	{ "676f83" : "828b8d", "3d3d51" : "4a515b", "24232f" : "303743" },
+	{ "676f83" : "c0491d", "3d3d51" : "ad3018", "24232f" : "922510" },
+	{ "676f83" : "ccd8e6", "3d3d51" : "a5b1c3", "24232f" : "8892a3" },
+	{ "676f83" : "55a087", "3d3d51" : "398370", "24232f" : "276a5b" },
+	{ "676f83" : "683972", "3d3d51" : "49294e", "24232f" : "301c34" },
+	{ "676f83" : "a18d6c", "3d3d51" : "6c6151", "24232f" : "4d4a41" }
+  ],
+  "hairColor" : [
+    { "d93a3a" : "d93a3a", "932625" : "932625" },
+	{ "d93a3a" : "d95c0d", "932625" : "933d05" },
+	{ "d93a3a" : "b3cdd4", "932625" : "729ca8" },
+	{ "d93a3a" : "e48e6e", "932625" : "c26949" },
+	{ "d93a3a" : "dab3e6", "932625" : "b37fc3" },
+	{ "d93a3a" : "94ed57", "932625" : "62d824" },
+	{ "d93a3a" : "f77c36", "932625" : "de4818" },
+	{ "d93a3a" : "ea84ff", "932625" : "d06aff" },
+	{ "d93a3a" : "d93a3a", "932625" : "99252b" },
+	{ "d93a3a" : "f8c92e", "932625" : "f2901f" },
+	{ "d93a3a" : "92e5fd", "932625" : "6ccafc" },
+	{ "d93a3a" : "f4e339", "932625" : "f2be22" },
+	{ "d93a3a" : "f2c866", "932625" : "df9d40" },
+	{ "d93a3a" : "d54e7c", "932625" : "b71e4f" }
+  ]
+}

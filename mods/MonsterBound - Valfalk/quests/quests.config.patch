@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/valfalk",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/valfalk",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]
