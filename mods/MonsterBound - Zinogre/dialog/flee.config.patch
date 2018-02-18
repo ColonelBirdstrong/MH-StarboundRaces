@@ -1,0 +1,23 @@
+[
+    {
+        "op": "add",
+        "path": "/helpme/zinogre",
+        "value": {
+            "default": [
+                "I thought I was safe from hunters here!",
+                "I'm unarmed, somebody help me!"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/safe/zinogre",
+        "value": {
+            "default": [
+                "Am I safe?",
+                "I think they're gone...",
+                "I need a nap."
+            ]
+        }
+    }
+]

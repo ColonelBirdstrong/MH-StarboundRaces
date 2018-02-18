@@ -1,0 +1,28 @@
+[
+    {
+        "op": "add",
+        "path": "/greeting/zinogre",
+        "value": {
+            "default": [
+            	"Nice to meet you!",
+                "You aren't a hunter, are you?",
+                "Hello there.",
+                "Welcome!",
+                "rrerr!"
+            ]
+        }
+    },
+    {
+        "op": "add",
+        "path": "/converse/zinogre",
+        "value": {
+            "default": [
+            	"bork bork",
+                "Fool! Zinogre awoos as he pleases!",
+                "No, I won't give you my skymerald.",
+                "Have you met my edgy cousin?",
+                "I'll have you know that I'm pretty good at breakdancing..."
+            ]
+        }
+    }
+]
