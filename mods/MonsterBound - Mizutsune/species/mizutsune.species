@@ -74,8 +74,8 @@
 
 // Furniture Table 2
       { "item" : "hylotlstoragelocker" },
-      { "item" : "monster shipdoor" },
-      { "item" : "monster shiphatch" },
+      { "item" : "monstershipdoor" },
+      { "item" : "monstershiphatch" },
 
 // Spinning Wheel
       { "item" : "kimonochest" },

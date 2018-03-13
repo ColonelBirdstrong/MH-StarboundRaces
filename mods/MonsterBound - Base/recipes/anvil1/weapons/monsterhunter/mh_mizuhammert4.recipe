@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "mh_mizuhammert3", "count" : 1 },
-    { "item" : "monsterclaw", "count" : 3 },
+    { "item" : "sharpenedclaw", "count" : 3 },
 	{ "item" : "durasteelbar", "count" : 4 }
   ],
   "output" : { "item" : "mh_mizuhammert4", "count" : 1 },

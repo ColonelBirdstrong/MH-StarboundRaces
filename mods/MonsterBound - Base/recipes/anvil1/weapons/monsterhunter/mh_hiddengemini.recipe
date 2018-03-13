@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "mh_taloncarverrt3", "count" : 1 },
 	{ "item" : "mh_taloncarverlt3", "count" : 1 },
-    { "item" : "monsterclaw", "count" : 3 },
+    { "item" : "sharpenedclaw", "count" : 3 },
 	{ "item" : "durasteelbar", "count" : 4 }
   ],
   "output" : { "item" : "mh_hiddengemini", "count" : 2 },

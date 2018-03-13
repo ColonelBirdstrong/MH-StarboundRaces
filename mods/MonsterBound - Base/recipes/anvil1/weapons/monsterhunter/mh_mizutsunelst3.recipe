@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "mh_mizutsunelst2", "count" : 1 },
-    { "item" : "monsterclaw", "count" : 2 },
+    { "item" : "sharpenedclaw", "count" : 2 },
 	{ "item" : "titaniumbar", "count" : 4 }
   ],
   "output" : { "item" : "mh_mizutsunelst3", "count" : 1 },
