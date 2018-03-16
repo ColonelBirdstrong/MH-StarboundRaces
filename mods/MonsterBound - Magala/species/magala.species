@@ -1,0 +1,144 @@
+{
+  "kind" : "magala",
+	"charCreationTooltip" : {
+	"title" : "magala",
+	"subTitle" : "O2",
+	"description" : "Virulent Elder Dragons from Capcom's Monster Hunter franchise."
+  },
+  "nameGen" : [ "/species/magalanamegen.config:names", "/species/magalanamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/magalahurt_male1.ogg", "/sfx/humanoid/magalahurt_female1.ogg" ],
+  "charGenTextLabels" : [ "Body colour", "Horn Type", "Shirt", "Legwear", "Claw colour", "", "Shirt colour", "Legwear colour", "MAGALA", "Personality" ],
+  "skull" : "/humanoid/magala/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+	
+  // Empty Hands
+      { "item" : "flagmonster" },
+	    
+// Anvil
+      { "item" : "aviantier1head" },
+      { "item" : "aviantier1chest" },
+      { "item" : "aviantier1pants" },
+      { "item" : "aviantier2head" },
+      { "item" : "aviantier2chest" },
+      { "item" : "aviantier2pants" },
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+// Anvil2
+      { "item" : "aviantier3head" },
+      { "item" : "aviantier3chest" },
+      { "item" : "aviantier3pants" },
+      { "item" : "aviantier4head" },
+      { "item" : "aviantier4chest" },
+      { "item" : "aviantier4pants" },
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+// Anvil3
+      { "item" : "aviantier5ahead" },
+      { "item" : "aviantier5achest" },
+      { "item" : "aviantier5apants" },
+      { "item" : "aviantier6ahead" },
+      { "item" : "aviantier6achest" },
+      { "item" : "aviantier6apants" },
+      { "item" : "aviantier5mhead" },
+      { "item" : "aviantier5mchest" },
+      { "item" : "aviantier5mpants" },
+      { "item" : "aviantier6mhead" },
+      { "item" : "aviantier6mchest" },
+      { "item" : "aviantier6mpants" },
+      { "item" : "aviantier5shead" },
+      { "item" : "aviantier5schest" },
+      { "item" : "aviantier5spants" },
+      { "item" : "aviantier6shead" },
+      { "item" : "aviantier6schest" },
+      { "item" : "aviantier6spants" },
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+// Furniture Table 2
+      { "item" : "humanstoragelocker" },
+      { "item" : "monstershipdoor" },
+      { "item" : "monstershiphatch" },
+// Spinning Wheel
+      { "item" : "avianadventurershirt" },
+      { "item" : "avianadventurerpants" },
+      { "item" : "aviancommonershirt" },
+      { "item" : "aviancommonerlegs" },
+      { "item" : "avianfancyshirt" },
+      { "item" : "avianfancyskirt" },
+      { "item" : "avianworkershirt" },
+      { "item" : "avianworkerpants" }
+	  ]
+  },
+  
+  "altOptionAsUndyColor" : true,
+  //"headOptionAsHairColor" : true,
+  //"altOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
+  
+  "genders" : [
+    {
+       "name" : "male",
+      "image" : "/interface/title/monmaleico.png",
+      "characterImage" : "/interface/title/magalamale.png",
+      "hair" : [ "horns1", "horns2" ],
+      "shirt" : [ "avianadventurershirt", "aviancommonershirt", "avianfancyshirt", "avianworkershirt", "protectorateshirtchest", "protectoratevestchest", "invischest" ],
+      "pants" : [ "avianadventurerpants", "aviancommonerlegs", "avianfancyskirt", "avianworkerpants", "invislegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/monfemico.png",
+      "characterImage" : "/interface/title/magalafemale.png",
+      "hair" : [ "horns1", "horns2" ],
+      "shirt" : [ "avianadventurershirt", "aviancommonershirt", "avianfancyshirt", "avianworkershirt", "protectorateshirtchest", "protectoratevestchest", "invischest" ],
+      "pants" : [ "avianadventurerpants", "aviancommonerlegs", "avianfancyskirt", "avianworkerpants", "invislegs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  
+  // scales, underbelly, & horns
+  "bodyColor" : [
+	// ---------------------------------BODY------------------------------------||------------------------------UNDERBELLY----------------------------------||--------------------------HORNS------------------------||----------------------------EYES--------------------------
+    { "725672":"564156", "5B455B":"3F2F3F", "493749":"2D1E2D", "3A2C3A":"210F21", "AACCE2":"89A4B5", "85A0B2":"7A91A0", "6A808F":"556570", "556672":"3E4A51", "5B4C5B":"4C404C", "493D49":"3D333D", "3C313C":"2B232B", "FF6759":"FF6759", "FF5242":"FF5242", "311F1B":"311F1B" }, // GORE
+	{ "725672":"D5CF8F", "5B455B":"AEA977", "493749":"938F66", "3A2C3A":"7D7A5A", "AACCE2":"AACCE2", "85A0B2":"85A0B2", "6A808F":"6A808F", "556672":"556672", "5B4C5B":"5B5B4C", "493D49":"49493D", "3C313C":"3C3C31", "FF6759":"FF6759", "FF5242":"FF5242", "311F1B":"311F1B" }, // SHAGARU
+	{ "725672":"B82C2B", "5B455B":"8A1D2E", "493749":"69253D", "3A2C3A":"54141D", "AACCE2":"7C4B87", "85A0B2":"673D6F", "6A808F":"492D4D", "556672":"332236", "5B4C5B":"F1C56E", "493D49":"DD9A4B", "3C313C":"B7762C", "FF6759":"118CCC", "FF5242":"0C73B7", "311F1B":"311F1B" }, // TEOSTSRA
+	{ "725672":"6DA1E0", "5B455B":"598DCC", "493749":"4A74A8", "3A2C3A":"2D5B8E", "AACCE2":"FCFCD6", "85A0B2":"EFEFBD", "6A808F":"CCCC99", "556672":"B5B587", "5B4C5B":"4DB2CC", "493D49":"3090A8", "3C313C":"218199", "FF6759":"93FFFF", "FF5242":"00FFFF", "311F1B":"311F1B" }, // LUNASTRA
+	{ "725672":"7A716F", "5B455B":"635C5A", "493749":"4F4845", "3A2C3A":"453B38", "AACCE2":"B79B92", "85A0B2":"9A8078", "6A808F":"7B5D54", "556672":"654B41", "5B4C5B":"3F3D3A", "493D49":"282522", "3C313C":"1E1B18", "FF6759":"55E0FD", "FF5242":"38C4E0", "311F1B":"0A4B60" }, // KUSHALA
+	{ "725672":"92689B", "5B455B":"774A80", "493749":"583260", "3A2C3A":"402347", "AACCE2":"BCA482", "85A0B2":"9F8B6D", "6A808F":"6B6052", "556672":"4E4B43", "5B4C5B":"873B41", "493D49":"6B282E", "3C313C":"56141A", "FF6759":"FFE66D", "FF5242":"E2CB53", "311F1B":"540E27" }, // CHAMELEOS
+	{ "725672":"414141", "5B455B":"343434", "493749":"292929", "3A2C3A":"141414", "AACCE2":"8E6763", "85A0B2":"78504C", "6A808F":"60403D", "556672":"4D3331", "5B4C5B":"B2B274", "493D49":"8F8F5D", "3C313C":"727252", "FF6759":"FFD684", "FF5242":"FFC855", "311F1B":"1B1B30" }, // NERGIGANTE
+	{ "725672":"B5CFDD", "5B455B":"90A7B5", "493749":"748691", "3A2C3A":"66767F", "AACCE2":"DDF3FF", "85A0B2":"C7D7E0", "6A808F":"A7B5BC", "556672":"95A1A8", "5B4C5B":"75B3FF", "493D49":"3D94FF", "3C313C":"227AE5", "FF6759":"FF6759", "FF5242":"FF5242", "311F1B":"AF382D" }, // KIRIN
+	{ "725672":"90B80C", "5B455B":"739108", "493749":"597006", "3A2C3A":"425403", "AACCE2":"E1CD92", "85A0B2":"D7BD70", "6A808F":"AB8C49", "556672":"906F35", "5B4C5B":"75443B", "493D49":"553522", "3C313C":"382716", "FF6759":"F7D610", "FF5242":"DBBC0F", "311F1B":"094E87" }, // RATHIAN
+	{ "725672":"E6AA36", "5B455B":"C48D27", "493749":"A87517", "3A2C3A":"896013", "AACCE2":"EFD8AA", "85A0B2":"E2C791", "6A808F":"B7996D", "556672":"8B7557", "5B4C5B":"31499A", "493D49":"273A7A", "3C313C":"162863", "FF6759":"77E5B9", "FF5242":"41C794", "311F1B":"401887" } // TIGREX
+  ],
+  
+  // claws
+  "undyColor" : [
+	
+    { "723940" : "723940", "5B2D33" : "5B2D33" }, // GORE
+	{ "723940" : "726B39", "5B2D33" : "5B552D" }, // SHAGARU
+	{ "723940" : "C48742", "5B2D33" : "A57238" }, // TEOSTSRA
+	{ "723940" : "E2F5FF", "5B2D33" : "C9D9E2" }, // LUNASTRA
+	{ "723940" : "BF664E", "5B2D33" : "A85943" }, // KUSHALA
+	{ "723940" : "B2B275", "5B2D33" : "8F8F5E" } // NERGIGANTE
+  ],
+  
+  // unused
+  "hairColor" : [
+	{ "AAAAAA" : "AAAAAA" }
+  ]
+}

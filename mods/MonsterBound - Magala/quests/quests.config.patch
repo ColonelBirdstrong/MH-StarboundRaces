@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/magala",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/magala",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]
