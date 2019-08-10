@@ -1,0 +1,122 @@
+[
+	{
+		"op": "add",
+		"path": "/apextestfacilityChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.08, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/apexbaseChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.12, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/apexcampChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.13, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/apexcityChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.11, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/aviantempleChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.09, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/aviantombChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.11, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/avianvillageChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.11, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/aviannativevillageChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.11, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/avianairshipChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.11, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/floranhuntinggroundsChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.11, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/florancanyonChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.12, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/floranvillagetowerChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.12, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/floranhutvillageChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.11, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/dungeoncrawlerChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.12, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/evilfortressChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.12, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/glitchcastleChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.15, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/glitchvillageChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.11, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/humanprisonChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.15, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/humancampChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.12, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/hylotlruinedcityChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.12, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/hylotlruinedcastleChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.11, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/hylotloceancityChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.14, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/hylotlcityChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.11, "item": ["ancientpotion", 2]}
+	},
+	{
+		"op": "add",
+		"path": "/novakidvillageChestTreasure/0/1/pool/-",
+		"value": {"weight": 0.11, "item": ["ancientpotion", 2]}
+	}
+]

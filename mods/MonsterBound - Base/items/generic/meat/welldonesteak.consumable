@@ -1,0 +1,23 @@
+{
+  "itemName" : "welldonesteak",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "food",
+  "inventoryIcon" : "welldonesteak.png",
+  "description" : "Mmm, so tasty!",
+  "shortdescription" : "Well-done Steak",
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "effects": [[
+	{
+		"effect": "maxenergyscalingboostfood",
+		"duration": 240
+	}
+  ]]
+}

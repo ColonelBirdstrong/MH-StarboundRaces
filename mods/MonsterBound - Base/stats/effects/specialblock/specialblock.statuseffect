@@ -1,0 +1,12 @@
+{
+  "name" : "specialblock",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "specialblock.lua"
+  ],
+  
+  "label" : "Debuff Immunity",
+  "icon" : "/interface/statuses/specialblock.png"
+}
